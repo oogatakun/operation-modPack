@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "tyama専用 (Minecraft 1.19.2)",
+    "description": "金制度がが起動しない用",
+    "icon": "images/107_20240720233412.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "43.4.0"
+  },
+  "untrackedFiles": []
+}
