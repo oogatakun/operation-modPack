@@ -1,0 +1,1004 @@
+#shaders/lang/en_us.lang
+
+#Profiles
+profile.POTATO=§a芋
+profile.VERYLOW=§a非常に低い
+profile.LOW=§a低い
+profile.MEDIUM=§a中
+profile.HIGH=§e高い（デフォルト）
+profile.VERYHIGH=§c非常に高い
+profile.ULTRA=§4§lウルトラ
+profile.comment=シェーダープロファイルは、パフォーマンスと視覚のバランスが最適化された設定に変更します。§e[*]§r あなたが何をしているか分からない限り、これらのプロファイルのいずれかを使用することをお勧めします。§e[*]§r 影響を受けるすべての設定は「パフォーマンス設定」メニューにあります。
+
+#Information
+screen.INFORMATION=情報
+screen.INFORMATION.comment=このセクションには情報提供のためにのみ存在するボタンが含まれています。
+
+option.info0=§bボタンにマウスをホバーしてください
+value.info0.0=
+option.info0.comment=このセクションには情報提供のためにのみ存在するボタンが含まれています。
+
+option.info1=パフォーマンスを向上させる方法
+value.info1.0=
+option.info1.comment=パフォーマンスは多くの要因によって影響を受けるため、Minecraftでは複雑なトピックですが、以下を試すことができます：レンダリング距離を減らすこと。理想的には、ほぼすべてのデバイスで6～16の間で設定するのがよいでしょう。「プロファイル」シェーダー設定を下げること。これらは、最適な視覚/パフォーマンスのバランスのために慎重にテストされています。さらに詳しい情報は後ほど追加される予定です。
+
+option.info2=最適な設定とは
+value.info2.0=
+option.info2.comment=最適な設定は主観的なものですが、デフォルト設定を使用することで、ほとんどの人にとってほぼベストに近い状態になります。デフォルト設定は、視覚/パフォーマンスのバランスに非常に注意を払いながら、長年のコミュニティ評価とフィードバックによって形成されています。しかし、それでも自由に調整して楽しんでください！
+
+option.info3=プロファイルやビジュアルスタイルとは
+value.info3.0=
+option.info3.comment=「プロファイル」設定は「パフォーマンス設定」メニューにある設定を変更しますが、好みベースの設定には影響しません。「ビジュアルスタイル」は、多くの好みベースの設定に存在する「デフォルトスタイル」値を変更しますが、パフォーマンスには大きな影響を与えません。
+
+option.info4=RPサポートとは
+value.info4.0=
+option.info4.comment=RPサポートオプションは、シェーダーパックがMinecraftのさまざまなブロックをどのように扱うかを決定します。たとえば、§bIntegratedPBR+§rは金ブロックを反射物として扱いますが、§elabPBR§rや§eseuspbr§rは、シェーダーにそれを伝えるためのリソースパックのインストールが必要です。RPサポートを§aベーシック§rに設定すると、水のような一部の例外を除き、どのブロックも「特別」にはなりません。
+
+option.info5=Modの問題を解決する方法
+value.info5.0=
+option.info5.comment=シェーダーパックの特性上、Modとの互換性の問題は避けられませんが、Complementaryに関するModの問題についての情報ページを確認し、既知の修正を多数見ることができます。www.complementary.dev/mod-issues
+
+option.info6=
+value.info6.0=
+option.info6.comment=
+
+option.info7=
+value.info7.0=
+option.info7.comment=
+
+option.info8=コミュニティに参加する方法
+value.info8.0=
+option.info8.comment=ComplementaryのDiscordサーバーに参加することで、親しみやすいコミュニティに参加し、開発者や経験豊富なコミュニティメンバーと連絡を取ることができます。www.complementary.dev/discord
+
+option.info9=Complementaryをサポートする方法
+value.info9.0=
+option.info9.comment=Complementaryの開発をサポートする最良の方法は、友人やソーシャルメディアで共有することですが、Patreonで直接開発者をサポートすることもできます。www.patreon.com/emingt
+
+option.info10=クレジット
+value.info10.0=
+option.info10.comment=EminGT: Complementaryのメイン開発者。Capt Tatsu: BSL Shadersの開発者。彼の寛大さが、まずComplementaryを可能にしました。特別感謝: IMS212, sp614x, Chocapic13, Robobo1221, SixthSurge, null511, fayer3, catlikecoding, Builderb0y, Jessie, SpacEagle17, isuewo, flytrap
+
+#Style
+option.SHADER_STYLE=ビジュアルスタイル
+option.SHADER_STYLE.comment=シェーダーパックのデフォルトのビジュアルスタイルを決定します。§bReimagined§r: Minecraftの独自の視覚要素を保ちながら、それを補完するスタイル。§dUnbound§r: 半リアルなファンタジースタイルでMinecraftのビジュアルを再構築します。§e[*]§r 影響を受ける設定: Water Style, Cloud Style, Sun/Moon Style, Sun/Moon Angle, Aurora Style, Glowing Ores.
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+#Screens
+screen.PERFORMANCE_SETTINGS=§eパフォーマンス設定§r
+screen.PERFORMANCE_SETTINGS.comment=パフォーマンスに直接関連する設定で、異なるシェーダープロファイルによって変更されます。
+
+screen.ATMOSPHERE_SETTINGS=大気
+screen.ATMOSPHERE_SETTINGS.comment=大気に関連する設定。
+
+screen.ATM_COLOR_SETTINGS=大気カラー乗数
+screen.ATM_COLOR_SETTINGS.comment=主に空や霧に見られる大気の色をカスタマイズすることができます。
+
+screen.MORNING_ATM_MULTS=日の出/日の入り時間
+screen.NOON_ATM_MULTS=正午時間
+screen.NIGHT_ATM_MULTS=夜時間
+screen.RAIN_ATM_MULTS=雨天時
+screen.NETHER_ATM_MULTS=ネザーディメンション
+screen.END_ATM_MULTS=エンドディメンション
+
+screen.CLOUD_SETTINGS=雲
+screen.CLOUD_SETTINGS.comment=雲に関連する設定。
+
+screen.CLOUD_COLOR_SETTINGS=雲の色
+screen.CLOUD_COLOR_SETTINGS.comment=雲の色を変更する設定。
+
+screen.CLOUD_UNBOUND_SETTINGS=Unboundの雲設定
+screen.CLOUD_REIMAGINED_SETTINGS=Reimaginedの雲設定
+
+screen.FOG_SETTINGS=霧
+screen.FOG_SETTINGS.comment=さまざまな種類の霧に関連する設定。
+
+screen.SUN_MOON_SETTINGS=太陽 / 月
+screen.SUN_MOON_SETTINGS.comment=太陽と月に関連する設定。
+
+screen.NETHER_SETTINGS=ネザーディメンション
+screen.NETHER_SETTINGS.comment=ネザーディメンションに関連する設定。
+
+screen.WEATHER_SETTINGS=雨 / 天候
+screen.WEATHER_SETTINGS.comment=天候条件に関連する設定。
+
+screen.CAMERA_SETTINGS=カメラ
+screen.CAMERA_SETTINGS.comment=視点/カメラに関連する設定。
+
+screen.TONEMAP_SETTINGS=カラーバランス
+screen.TONEMAP_SETTINGS.comment=ビジュアルのカラーバランスを決定する設定。
+
+screen.COLORGRADING_SETTINGS=カラーグレーディング
+screen.COLORGRADING_SETTINGS.comment=最終的なカラーチャンネルを調整する設定。
+
+screen.WORLD_BLUR_SETTINGS=ワールドブラー
+screen.WORLD_BLUR_SETTINGS.comment=華やかなワールドブラー効果に関連する設定。
+
+screen.MATERIAL_SETTINGS=マテリアル
+screen.MATERIAL_SETTINGS.comment=Minecraftのマテリアルに関連する設定。
+
+screen.IPBR_SETTINGS=IntegratedPBR+ マテリアル
+screen.IPBR_SETTINGS.comment=IntegratedPBR+の機能に関連する設定。
+
+screen.GLOWING_ORE_SETTINGS=光る鉱石
+screen.GLOWING_ORE_SETTINGS.comment=鉱石ブロックの発光を調整する設定。
+
+screen.GLOWING_STUFF_SETTINGS=光るもの
+screen.GLOWING_STUFF_SETTINGS.comment=その他のブロックの発光を調整する設定。
+
+screen.OTHER_IPBR_SETTINGS=その他のIPBR機能
+screen.OTHER_IPBR_SETTINGS.comment=さまざまなIntegratedPBR+の設定。
+
+screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr マテリアル
+screen.CUSTOM_PBR_SETTINGS.comment=labPBR/seuspbrの機能に関連する設定。
+
+screen.LIGHTING_SETTINGS=照明
+screen.LIGHTING_SETTINGS.comment=照明に関連する設定。
+
+screen.LIGHT_COLOR_SETTINGS=照明カラー乗数
+screen.LIGHT_COLOR_SETTINGS.comment=すべての表面に見られる照明の色をカスタマイズする設定。
+
+screen.MORNING_LIGHT_MULTS=日の出/日の入り時間
+screen.NOON_LIGHT_MULTS=正午時間
+screen.NIGHT_LIGHT_MULTS=夜時間
+screen.RAIN_LIGHT_MULTS=雨天時
+screen.NETHER_LIGHT_MULTS=ネザーディメンション
+screen.END_LIGHT_MULTS=エンドディメンション
+
+screen.BLOCKLIGHT_COLOR_SETTINGS=ブロックライトの色 §e[*]§r
+screen.BLOCKLIGHT_COLOR_SETTINGS.comment=光源ブロックから発せられる色を調整する設定。§e[*]§r Advanced Colored Lighting設定が有効になっている場合、これらの色設定はほとんどのライトに影響を与えませんが、Blocklight Intensityスライダーは例外です。
+
+screen.MOON_PHASE_INF_SETTINGS=月の位相の影響
+screen.MOON_PHASE_INF_SETTINGS.comment=異なる月の位相が夜の照明にどのように影響するかを決定する設定。
+
+screen.ACL_FEATURES_SETTINGS=ACL専用機能 §e[*]§r
+screen.ACL_FEATURES_SETTINGS.comment=Advanced Colored Lighting専用の機能に関する設定。§e[*]§r これらの機能は、パフォーマンス設定でAdvanced Colored Lightingが有効になっており、システムがそれをサポートしている場合にのみ動作します。
+
+screen.WATER_SETTINGS=水
+screen.WATER_SETTINGS.comment=水に関する設定。
+
+screen.WATER_COLOR_SETTINGS=水面の色
+screen.UNDERWATER_COLOR_SETTINGS=水中の色
+
+screen.WATER_WAVE_SETTINGS=水の揺らぎ §e[*]§r
+screen.WATER_WAVE_SETTINGS.comment=水面に見られる表面方向の波（ノーマル）をカスタマイズする設定。§e[*]§r これらの設定は、水のスタイルが「Reimagined + Waves」または「Unbound」に設定されている場合にのみ動作します。
+
+screen.WAVING_SETTINGS=揺れるテクスチャ
+screen.WAVING_SETTINGS.comment=揺れるテクスチャに関する設定。
+
+screen.OTHER_SETTINGS=その他
+screen.OTHER_SETTINGS.comment=他のカテゴリに該当しない設定。
+
+screen.SELECT_OUTLINE_SETTINGS=選択輪郭
+screen.SELECT_OUTLINE_SETTINGS.comment=ブロック選択の輪郭を変更する設定。
+
+screen.WORLD_OUTLINE_SETTINGS=ワールド輪郭
+screen.WORLD_OUTLINE_SETTINGS.comment=オプションの輪郭効果に関する設定。
+
+#Settings
+option.RP_MODE=RPサポート
+option.RP_MODE.comment=さまざまなブロックやマテリアルがどのようにレンダリングされるかを決定するための内部計算を変更します。§bIntegrated PBR+§r: 計算されたPBRと追加効果。ほとんどの使用ケースで強く推奨されます。§aBasic§r: PBRや追加効果なし。§elabPBR/seuspbr§r: 必要なPBRリソースパックを使用したマテリアル。
+value.RP_MODE.0=§a基本
+value.RP_MODE.1=§bIntegrated PBR+
+value.RP_MODE.2=§eseuspbr (RP Required)
+value.RP_MODE.3=§elabPBR (RP Required)
+
+option.WATER_REFLECT_QUALITY=水の反射品質
+option.WATER_REFLECT_QUALITY.comment=半透明な表面に現れる反射の視覚品質を調整します。§c中§r: スクリーンスペースのレイトレース反射が水や半透明に表示されます。§e芋§r: 水と半透明の反射をより高速な方法に置き換えますが、一部の状況では正しく表示されない場合があります。§aオフ§r: 反射なし。
+value.WATER_REFLECT_QUALITY.-1=§aオフ
+value.WATER_REFLECT_QUALITY.0=§a空のみ
+value.WATER_REFLECT_QUALITY.1=§e芋
+value.WATER_REFLECT_QUALITY.2=§c中
+
+option.BLOCK_REFLECT_QUALITY=ブロック反射品質 §e[*]§r
+option.BLOCK_REFLECT_QUALITY.comment=固体マテリアルに現れる反射の視覚品質を調整します。§c高§r: 太陽/月のハイライト + テンポラルフィルターを使用した滑らかなスペキュラ反射。§e中§r: 太陽/月のハイライト + スペキュラ反射。§a低§r: 太陽/月のハイライトのみ。§e[*]§r スペキュラ反射が表示されるには、RPサポートオプションを基本以外に設定する必要があります。
+value.BLOCK_REFLECT_QUALITY.0=§aオフ
+value.BLOCK_REFLECT_QUALITY.1=§e低
+value.BLOCK_REFLECT_QUALITY.2=§c中
+value.BLOCK_REFLECT_QUALITY.3=§c高
+
+option.SHADOW_QUALITY=シャドウサンプル品質
+option.SHADOW_QUALITY.comment=シャドウの品質を調整します。各ティアはシャドウのノイズアーティファクトをさらに減少させ、§e高§r以下のオプションは葉の上に最適化されたシャドウを有効にします。§e非常に低い§rは複数の方法でシャドウを大幅にダウングレードし、§aオフ§rはシャドウとライトシャフトを完全に無効にします。
+value.SHADOW_QUALITY.-1=§aオフ
+value.SHADOW_QUALITY.0=§e非常に低い
+value.SHADOW_QUALITY.1=§e低
+value.SHADOW_QUALITY.2=§e中
+value.SHADOW_QUALITY.3=§e高
+value.SHADOW_QUALITY.4=§c非常に高い
+value.SHADOW_QUALITY.5=§4§lウルトラ
+
+option.LIGHTSHAFT_QUALI_DEFINE=ライトシャフト品質 §e[*]§r
+option.LIGHTSHAFT_QUALI_DEFINE.comment=ライトシャフトの品質を調整します。各ティアはライトシャフトのノイズアーティファクトをさらに減少させます。§e[*]§r ライトシャフトが機能するには、シャドウサンプル品質設定をオフ以外に設定する必要があります。
+value.LIGHTSHAFT_QUALI_DEFINE.0=§aオフ
+value.LIGHTSHAFT_QUALI_DEFINE.1=§e低
+value.LIGHTSHAFT_QUALI_DEFINE.2=§e中
+value.LIGHTSHAFT_QUALI_DEFINE.3=§c高
+value.LIGHTSHAFT_QUALI_DEFINE.4=§4§l非常に高い
+
+option.shadowDistance=シャドウ距離
+option.shadowDistance.comment=プレイヤーからリアルタイムのシャドウが描画される距離を調整します。§e[*]§r この値は内部的にレンダリング距離に制限されます。§c[-]§r 値が低すぎると、過剰なライトシャフトの漏れが発生する場合があります。
+value.shadowDistance.64.0=§a4 チャンク §c[-]
+value.shadowDistance.80.0=§a5 チャンク §c[-]
+value.shadowDistance.96.0=§a6 チャンク §c[-]
+value.shadowDistance.112.0=§a7 チャンク §c[-]
+value.shadowDistance.128.0=§a8 チャンク
+value.shadowDistance.160.0=§e10 チャンク
+value.shadowDistance.192.0=§e12 チャンク
+value.shadowDistance.224.0=§e14 チャンク
+value.shadowDistance.256.0=§c16 チャンク
+value.shadowDistance.320.0=§c20 チャンク
+value.shadowDistance.384.0=§4§l24 チャンク
+value.shadowDistance.512.0=§4§l32 チャンク
+value.shadowDistance.768.0=§4§k-§r§4§l§n§o48 チャンク§r§4§k-
+value.shadowDistance.1024.0=§4§k-§r§4§l§n§o64 チャンク§r§4§k-
+
+option.ENTITY_SHADOWS_DEFINE=エンティティシャドウ
+option.ENTITY_SHADOWS_DEFINE.comment=エンティティやブロックエンティティがシャドウを投影できるようにします。§c[-]§r エンティティシャドウは予想以上にパフォーマンスに影響を与え、一部のケースではFPSが50%以上低下することがあります。
+value.ENTITY_SHADOWS_DEFINE.-1=§aオフ
+value.ENTITY_SHADOWS_DEFINE.1=§4§k-§r§4§l§n§oオン§r§4§k- §r§c[-]
+
+option.DETAIL_QUALITY=ディテール品質
+option.DETAIL_QUALITY.comment=パフォーマンスに影響を与えるいくつかの小さな要素を調整します。水のマテリアル、TAA、照明の調整、ナイトネビュラ、ネザーストーム、エンダービーム、空の効果反射、雨水たまりの精度の品質を調整します。
+value.DETAIL_QUALITY.0=§a芋
+value.DETAIL_QUALITY.2=§e中
+value.DETAIL_QUALITY.3=§c高
+
+option.CLOUD_QUALITY=雲の品質
+option.CLOUD_QUALITY.comment=Reimagined/Unbound雲スタイルの照明、ディテール、およびサンプル品質を調整します。§e[*]§r この設定は「Reimagined」または「Unbound」雲スタイルでのみ機能します。
+value.CLOUD_QUALITY.0=§aオフ
+value.CLOUD_QUALITY.1=§a低
+value.CLOUD_QUALITY.2=§e中
+value.CLOUD_QUALITY.3=§c高
+
+option.FXAA_DEFINE=アンチエイリアス (FXAA)
+option.FXAA_DEFINE.comment=高速近似アンチエイリアシング（FXAA）を有効にします。これは、画像を滑らかにする効果です。
+value.FXAA_DEFINE.-1=§aオフ
+value.FXAA_DEFINE.1=§eオン
+
+option.SSAO_QUALI_DEFINE=エッジシャドウ (SSAO) の品質
+option.SSAO_QUALI_DEFINE.comment=シーンのエッジに追加の環境シャドウを追加するスクリーンスペース・アンビエント・オクルージョン (SSAO) の品質を調整します。各ティアはSSAOノイズのアーティファクトをさらに減少させます。
+value.SSAO_QUALI_DEFINE.0=§aオフ
+value.SSAO_QUALI_DEFINE.2=§e中
+value.SSAO_QUALI_DEFINE.3=§c高
+
+option.ANISOTROPIC_FILTER=テクスチャフィルタリング
+option.ANISOTROPIC_FILTER.comment=異方性フィルタリングを使用してミップマップテクスチャの品質を向上させます。§e[*]§r 「ミップマップレベル」ビデオ設定を最大（4）に設定しないと、良い結果が得られません。
+value.ANISOTROPIC_FILTER.0=§aオフ
+value.ANISOTROPIC_FILTER.4=§e4x
+value.ANISOTROPIC_FILTER.8=§e8x
+value.ANISOTROPIC_FILTER.16=§4§l16x
+
+option.COLORED_LIGHTING=高度なカラードライティング §e[*]§r
+option.COLORED_LIGHTING.comment=ボクセル化とフラッドフィル照明を使用してブロックライトに色を追加し、新しいライトも導入します。§e[*]§r この機能はIrisおよび対応プラットフォームでのみ動作します。§e[*]§r 「シャドウサンプル品質」がオフの場合、この設定は無効になります。§a[+]§r このシステムは、個別に有効/無効にできる他の機能も「その他」->「ACL機能」メニューで使用可能にします。§c[-]§r この効果のために高いチャンク値を設定すると、予想以上にパフォーマンスに影響を与えます。2チャンク増加するごとに、前のティアの2倍以上のパフォーマンスコストがかかります。
+value.COLORED_LIGHTING.0=§aオフ
+value.COLORED_LIGHTING.128=§e4 チャンク
+value.COLORED_LIGHTING.192=§c6 チャンク
+value.COLORED_LIGHTING.256=§c8 チャンク
+value.COLORED_LIGHTING.384=§4§l12 チャンク
+value.COLORED_LIGHTING.512=§4§k-§r§4§l§n§o16 チャンク§r§4§k- §r§c[-]
+
+option.SSAO_I=エッジシャドウ強度 (SSAO)
+option.SSAO_I.comment=シーンのエッジに追加の環境シャドウを追加するスクリーンスペース・アンビエント・オクルージョン (SSAO) の強度を決定します。§e[*]§r 「パフォーマンス設定」でSSAOが無効になっている場合、この設定は機能しません。
+value.SSAO_I.0=§cオフ
+
+option.VANILLAAO_I=エッジシャドウ強度 (バニラ)
+option.VANILLAAO_I.comment=Minecraftの環境オクルージョンの強度を決定し、シーンのエッジに追加の環境シャドウを追加します。
+value.VANILLAAO_I.0=§cオフ
+
+option.BORDER_FOG=ボーダーフォグ
+option.BORDER_FOG.comment=チャンク境界を隠すために、ロードされた世界の端に濃い霧を追加します。§e[*]§r レンダリング距離が8チャンク未満の場合は、ボーダーフォグを無効にすることをお勧めします。
+
+option.ATM_FOG_MULT=大気霧
+option.ATM_FOG_MULT.comment=高度に基づく霧の強度を調整します。
+value.ATM_FOG_MULT.0.50=非常に控えめ
+value.ATM_FOG_MULT.0.65=控えめ
+value.ATM_FOG_MULT.0.80=標準
+value.ATM_FOG_MULT.0.95=強烈
+
+option.ATM_FOG_DISTANCE=大気霧の距離
+option.ATM_FOG_DISTANCE.comment=カメラから大気霧が現れ始める距離を調整します。§e[*]§r 霧の距離は、ビデオ設定のレンダリング距離設定によって自動的に調整されることにも注意してください。
+
+option.ATM_FOG_ALTITUDE=大気霧の高度
+option.ATM_FOG_ALTITUDE.comment=大気霧が最も顕著に現れる高度を決定します。
+
+option.CAVE_FOG=洞窟霧
+option.CAVE_FOG.comment=地下深くのエリアに追加の霧を有効にします。
+
+option.LIGHTSHAFT_BEHAVIOUR=ライトシャフトモード
+option.LIGHTSHAFT_BEHAVIOUR.comment=ライトシャフトの挙動を決定します。§a[+]§r シーン認識ライトシャフトは、通常モードとエクストリームモードの間を自動的に切り替え、最良の結果を提供します。§c[-]§r エクストリームモードは一般的なゲームプレイには推奨されず、パフォーマンスに大きな影響を与える可能性があります。
+value.LIGHTSHAFT_BEHAVIOUR.0=§cオフ
+value.LIGHTSHAFT_BEHAVIOUR.1=シーン認識 §a[+]
+value.LIGHTSHAFT_BEHAVIOUR.2=通常
+value.LIGHTSHAFT_BEHAVIOUR.3=エクストリーム §c[-]
+
+option.LIGHTSHAFT_SMOKE=ライトシャフトの煙
+option.LIGHTSHAFT_SMOKE.comment=ライトシャフトにボリュームスモークを追加します。§c[-]§r この効果はパフォーマンスに影響を与える可能性があります。
+
+option.LIGHTSHAFT_DAY_I=ライトシャフト日中乗数
+option.LIGHTSHAFT_NIGHT_I=ライトシャフト夜間乗数
+option.LIGHTSHAFT_RAIN_I=ライトシャフト雨天乗数
+
+option.CLOUD_STYLE_DEFINE=雲のスタイル
+option.CLOUD_STYLE_DEFINE.comment=雲のスタイルを決定します。§e[*]§r 「デフォルトスタイル」は、シェーダーオプションのメインメニューにある「ビジュアルスタイル」設定によって自動的に決定されます。§e[*]§r 「バニラ」スタイルは、ビデオ設定で雲が有効になっている必要があります。
+value.CLOUD_STYLE_DEFINE.-1=デフォルトスタイル
+value.CLOUD_STYLE_DEFINE.0=§cオフ
+value.CLOUD_STYLE_DEFINE.1=Reimagined
+value.CLOUD_STYLE_DEFINE.3=Unbound
+value.CLOUD_STYLE_DEFINE.50=バニラ §e[*]
+
+option.CLOUD_SHADOWS=雲の影
+option.CLOUD_SHADOWS.comment=雲が投影する影を有効にします。§e[*]§r この設定は「Reimagined」または「Unbound」雲スタイルでのみ機能します。§e[*]§r 雲のスタイルが「Unbound」に設定されている場合、Unbound雲の複雑さのために雲の影がランダムに生成されます。
+
+option.CLOUD_CLOSED_AREA_CHECK=室内の雲を防ぐ
+option.CLOUD_CLOSED_AREA_CHECK.comment=閉じたエリア内の雲を削除するための追加チェックを行います。§e[*]§r この設定は「Reimagined」または「Unbound」雲スタイルでのみ機能します。§e[*]§r 「シャドウサンプル品質」がオフの場合、この設定は無効になります。
+
+option.CLOUD_ALT1=雲の高度
+option.CLOUD_ALT1.comment=雲が現れる世界の高さを決定します。§e[*]§r この設定は「Reimagined」または「Unbound」雲スタイルでのみ機能します。
+
+option.CLOUD_SPEED_MULT=雲の速度
+option.CLOUD_SPEED_MULT.comment=雲の移動速度を決定します。「ワールド時間に同期」設定はMinecraftのワールド時間を使用して雲の位置を進めます。これにより、同じサーバー内のプレイヤー間で雲が同じように表示されるようになります。§e[*]§r この設定は「Reimagined」または「Unbound」雲スタイルでのみ機能します。
+value.CLOUD_SPEED_MULT.100=ワールド時間に同期
+
+option.CLOUD_R=雲の赤乗数
+option.CLOUD_G=雲の緑乗数
+option.CLOUD_B=雲の青乗数
+
+option.CLOUD_UNBOUND_AMOUNT=雲の量
+option.CLOUD_UNBOUND_AMOUNT.comment=Unbound雲の量を調整します。
+
+option.CLOUD_UNBOUND_SIZE_MULT=雲の小ささ
+option.CLOUD_UNBOUND_SIZE_MULT.comment=Unbound雲のサイズを調整します。値が大きいほど雲が小さくなります。
+
+option.CLOUD_UNBOUND_RAIN_ADD=雨雲の追加
+option.CLOUD_UNBOUND_RAIN_ADD.comment=雨や雪が降るときに適用される雲の量の増加を調整します。
+prefix.CLOUD_UNBOUND_RAIN_ADD=+
+
+option.DOUBLE_REIM_CLOUDS=二重Reimagined雲
+option.DOUBLE_REIM_CLOUDS.comment=二次的なReimagined雲層を有効にします。§e[*]§r この設定は「Reimagined」雲スタイルでのみ機能します。
+
+option.CLOUD_ALT2=雲層2の高度
+option.CLOUD_ALT2.comment=二層目の雲が現れる世界の高さを決定します。§e[*]§r この設定は、「Reimagined」雲スタイルで「二重Reimagined雲」オプションが有効になっている場合にのみ機能します。
+
+option.NETHER_STORM=ネザーストーム
+option.NETHER_STORM.comment=ネザー次元に煙のようなボリューム効果を追加します。§c[-]§r この効果はパフォーマンスに影響を与える可能性があります。
+
+option.NETHER_STORM_I=ネザーストームの不透明度
+option.NETHER_STORM_I.comment=ネザーストームの不透明度を調整します。
+
+option.NETHER_STORM_LOWER_ALT=ネザーストームの下限高度
+option.NETHER_STORM_LOWER_ALT.comment=ネザーストームの下限開始点を決定します。この高度より下にはネザーストームは発生せず、この高度のすぐ上で最も明るく見えます。
+
+option.NETHER_STORM_HEIGHT=ネザーストームの高さ
+option.NETHER_STORM_HEIGHT.comment=ネザーストームが形成される高さを決定します。この値を減少させると、ネザーストームが「ネザーストームの下限高度」付近に集中するようになります。
+
+option.NETHER_VIEW_LIMIT=ネザーの視界制限
+option.NETHER_VIEW_LIMIT.comment=ネザーで霧が許容する最大の視界距離を決定します。§c[-]§r 「ネザーストーム」が有効な場合、この設定を増加させるとパフォーマンスに影響を与える可能性があります。
+value.NETHER_VIEW_LIMIT.96.0=6 チャンク
+value.NETHER_VIEW_LIMIT.112.0=7 チャンク
+value.NETHER_VIEW_LIMIT.128.0=8 チャンク
+value.NETHER_VIEW_LIMIT.160.0=10 チャンク
+value.NETHER_VIEW_LIMIT.192.0=12 チャンク
+value.NETHER_VIEW_LIMIT.224.0=14 チャンク
+value.NETHER_VIEW_LIMIT.256.0=16 チャンク
+value.NETHER_VIEW_LIMIT.320.0=20 チャンク
+value.NETHER_VIEW_LIMIT.384.0=24 チャンク
+value.NETHER_VIEW_LIMIT.512.0=32 チャンク §c[-]
+value.NETHER_VIEW_LIMIT.768.0=48 チャンク §c[-]
+value.NETHER_VIEW_LIMIT.1024.0=64 チャンク §c[-]
+value.NETHER_VIEW_LIMIT.99999.0=無制限 §c[-]
+
+option.NETHER_COLOR_MODE=カラーモード
+option.NETHER_COLOR_MODE.comment=ネザーでの大気の色がどのように処理されるかを決定します。Constant: バイオーム間で色が変わりません。Biome Based: バイオームに応じて色が変化します。Biome Based (Modified): バイオームベースですが、Complementaryのデフォルトのビジュアル方向により適合するように色が再調整されています。
+value.NETHER_COLOR_MODE.3=バイオームベース（修正）
+value.NETHER_COLOR_MODE.2=バイオームベース
+value.NETHER_COLOR_MODE.0=一定
+
+option.T_EXPOSURE=全体的な明るさ
+option.T_EXPOSURE.comment=「トーンマップエクスポージャー」とも呼ばれます。画像全体の明るさを調整します。
+
+option.TM_WHITE_CURVE=白の明るさ
+option.TM_WHITE_CURVE.comment=「トーンマップホワイトカーブ」とも呼ばれます。色が完全な白に達するまでの容易さを調整します。
+
+option.T_UPPER_CURVE=明るい色のコントラスト
+option.T_UPPER_CURVE.comment=「トーンマップアッパーカーブ」とも呼ばれます。明るい色のコントラストを調整します。
+
+option.T_LOWER_CURVE=暗い色のコントラスト
+option.T_LOWER_CURVE.comment=「トーンマップローワーカーブ」とも呼ばれます。暗い色のコントラストを調整します。
+
+option.T_SATURATION=彩度
+option.T_SATURATION.comment=画像全体の色の鮮やかさを調整します。
+
+option.T_VIBRANCE=淡い色の彩度
+option.T_VIBRANCE.comment=「ビビランス」とも呼ばれます。画像の色の鮮やかさを調整しますが、既に鮮やかなピクセルにはあまり影響しません。
+
+option.COLORGRADING=§eカラーグレーディング
+option.COLORGRADING.comment=最終的なカラーチャンネルを自由にミックスする設定を有効にします。
+option.GR_RR=赤から赤
+option.GR_RG=赤から緑
+option.GR_RB=赤から青
+option.GR_RC=赤のカーブ
+option.GR_GR=緑から赤
+option.GR_GG=緑から緑
+option.GR_GB=緑から青
+option.GR_GC=緑のカーブ
+option.GR_BR=青から赤
+option.GR_BG=青から緑
+option.GR_BB=青から青
+option.GR_BC=青のカーブ
+
+option.WATER_STYLE_DEFINE=水のスタイル
+option.WATER_STYLE_DEFINE.comment=水のスタイルを決定します。§e[*]§r 「デフォルトスタイル」とは、シェーダーオプションのメインメニューにある「ビジュアルスタイル」設定によって自動的に決定されることを意味します。
+value.WATER_STYLE_DEFINE.-1=デフォルトスタイル
+value.WATER_STYLE_DEFINE.1=Reimagined
+value.WATER_STYLE_DEFINE.2=Reimagined + Waves
+value.WATER_STYLE_DEFINE.3=Unbound
+
+option.WATER_CAUSTIC_STYLE_DEFINE=水のカスティックスタイル
+option.WATER_CAUSTIC_STYLE_DEFINE.comment=水のシャドウのスタイル、別名水のカスティックスを決定します。
+value.WATER_CAUSTIC_STYLE_DEFINE.-1=水と同じ
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Reimagined
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Unbound
+
+option.WATER_REFRACTION_INTENSITY=水の屈折強度 §e[*]§r
+option.WATER_REFRACTION_INTENSITY.comment=水の屈折と水中の歪みの強度を調整します。§e[*]§r この設定は、Detail Qualityが「高」に設定されている場合にのみ完全に機能し、そうでない場合は微妙な水中の歪みにのみ影響します。
+
+option.WATER_FOAM_I=水泡の強度
+option.WATER_FOAM_I.comment=水の縁に見える泡の不透明度を決定します。§e[*]§r この設定は、Detail Qualityが「中」またはそれ以上に設定されている場合にのみ機能します。
+
+option.WATER_ALPHA_MULT=水の不透明度係数
+option.WATER_ALPHA_MULT.comment=水がどれだけ不透明に見えるかを調整します。§c[-]§r 極端な値は、水の照明バランスを崩します。§e[*]§r この設定は、Detail Qualityが「中」またはそれ以上に設定されている場合にのみ機能します。
+
+option.WATER_FOG_MULT=水の霧係数
+option.WATER_FOG_MULT.comment=水の霧がどれだけ近く見えるかを調整します。値が高いほど霧が近くなります。§c[-]§r 極端な値は、水の照明バランスを崩します。
+
+option.WATERCOLOR_R=水面の赤乗数
+option.WATERCOLOR_G=水面の緑乗数
+option.WATERCOLOR_B=水面の青乗数
+
+option.WATERCOLOR_MODE=カラーモード
+option.WATERCOLOR_MODE.comment=水の色がどのように処理されるかを決定します。一定: バイオーム間で水の色が変わりません。バイオームベース: バイオームに応じて色が変化します。バイオームベース（制限付き）: バイオームベースですが、特定のバイオームで水面の色が奇妙にならないようにします。§e[*]§r この設定はMinecraftバージョン1.13未満では正しく機能しません。
+value.WATERCOLOR_MODE.3=バイオームベース（制限付き）
+value.WATERCOLOR_MODE.2=バイオームベース
+value.WATERCOLOR_MODE.0=一定
+
+option.BRIGHT_CAVE_WATER=明るい浅瀬/洞窟の水
+option.BRIGHT_CAVE_WATER.comment=浅瀬や閉じたエリアの水を明るくして洞窟内の視認性を向上させ、海の浅瀬部分に色のディテールを追加します。§e[*]§r 技術的な理由で、水の不透明度係数が199以上に設定されている場合、この効果は機能しません。
+
+option.UNDERWATERCOLOR_R=水中の赤乗数
+option.UNDERWATERCOLOR_G=水中の緑乗数
+option.UNDERWATERCOLOR_B=水中の青乗数
+
+option.WATER_BUMPINESS=波の強度
+option.WATER_BUMPINESS.comment=水面に見られる表面方向の波（ノーマル）の強度を調整します。
+
+option.WATER_BUMP_SMALL=波の強度 - 小さな波
+option.WATER_BUMP_SMALL.comment=他の波よりも小さな波の強度を調整します。
+
+option.WATER_BUMP_MED=波の強度 - 中程度の波
+option.WATER_BUMP_MED.comment=他の波と比べて平均的なサイズの波の強度を調整します。
+
+option.WATER_BUMP_BIG=波の強度 - 大きな波
+option.WATER_BUMP_BIG.comment=他の波よりも大きな波の強度を調整します。
+
+option.WATER_SPEED_MULT=波の速度
+option.WATER_SPEED_MULT.comment=水面に見られる表面方向の波（ノーマル）の移動速度を調整します。
+
+option.WATER_SIZE_MULT=波のサイズ
+option.WATER_SIZE_MULT.comment=水面に見られる表面方向の波（ノーマル）の大きさを調整します。
+
+option.SUN_ANGLE=太陽/月の角度
+option.SUN_ANGLE.comment=正午時における太陽/月の角度を世界に対して調整します。§a[+]§r Reimaginedのライティングモデルは、"0"の太陽角度が他の角度と同様に機能するように特別に設計されています。
+value.SUN_ANGLE.-1=デフォルトスタイル
+value.SUN_ANGLE.0=0 §r(§bReimagined§r)
+value.SUN_ANGLE.-40=-40 §r(§dUnbound§r)
+
+option.SUN_MOON_STYLE_DEFINE=太陽/月のスタイル
+option.SUN_MOON_STYLE_DEFINE.comment=太陽/月のスタイルを決定します。§e[*]§r 太陽/月/スカイボックスの区別の制限により、一部のリソースパックと正しく互換性がない可能性があります。
+value.SUN_MOON_STYLE_DEFINE.-1=デフォルトスタイル
+value.SUN_MOON_STYLE_DEFINE.1=Reimagined
+value.SUN_MOON_STYLE_DEFINE.2=Unbound
+value.SUN_MOON_STYLE_DEFINE.3=Unbound - 小さめ
+
+option.SUN_MOON_HORIZON=太陽/月の地平線
+option.SUN_MOON_HORIZON.comment=太陽/月が地平線の下に現れるのを防ぎます。
+
+option.SUN_MOON_DURING_RAIN=雨天時の太陽/月
+option.SUN_MOON_DURING_RAIN.comment=雨天時に太陽と月が見えるかどうかを決定します。
+
+option.NIGHT_STAR_AMOUNT=夜の星の数
+option.NIGHT_STAR_AMOUNT.comment=夜空に見える星の数を決定します。
+value.NIGHT_STAR_AMOUNT.2=中
+value.NIGHT_STAR_AMOUNT.3=多い
+
+option.RAINBOWS=虹
+option.RAINBOWS.comment=朝や夕方に太陽の反対側に現れる虹を有効にします。
+value.RAINBOWS.0=オフ
+value.RAINBOWS.1=雨の後
+value.RAINBOWS.3=常に
+
+option.AURORA_STYLE_DEFINE=オーロラのスタイル
+option.AURORA_STYLE_DEFINE.comment=夜空に現れるオーロラのスタイルを決定します。
+value.AURORA_STYLE_DEFINE.-1=デフォルトスタイル
+value.AURORA_STYLE_DEFINE.0=§cオフ
+value.AURORA_STYLE_DEFINE.1=Reimagined
+value.AURORA_STYLE_DEFINE.2=Unbound
+
+option.AURORA_CONDITION=オーロラ
+option.AURORA_CONDITION.comment=オーロラが現れる条件を決定します。§e[*]§r オーロラはこの設定に関係なく、夜間にのみ現れます。
+value.AURORA_CONDITION.0=毎晩
+value.AURORA_CONDITION.1=満月
+value.AURORA_CONDITION.2=雪のバイオーム
+value.AURORA_CONDITION.3=雪のバイオームでの満月
+value.AURORA_CONDITION.4=満月または雪のバイオーム
+
+option.NIGHT_NEBULA=夜の星雲
+option.NIGHT_NEBULA.comment=夜空に銀河風の星雲を追加します。星雲は手続き的に生成され、毎晩異なる見た目になります。§c[-]§r この効果はパフォーマンスに影響を与える可能性があります。§e[*]§r 「星雲（Nebulae）」は誤字ではなく、「Nebula」の複数形です =D
+
+option.NIGHT_NEBULA_I=夜の星雲の明るさ
+option.NIGHT_NEBULA_I.comment=夜の星雲の明るさを調整します。
+
+option.RAIN_STYLE=雨天時のスタイル
+option.RAIN_STYLE.comment=雨天時の天候スタイルを決定します。
+value.RAIN_STYLE.1=軽くて暖かい
+value.RAIN_STYLE.2=激しくて寒い
+
+option.SPECIAL_BIOME_WEATHER=特殊な寒冷/乾燥気候
+option.SPECIAL_BIOME_WEATHER.comment=寒冷および乾燥バイオームでの大気のバランスを変更し、雪嵐や砂嵐のような雰囲気を作り出します。
+
+option.WEATHER_TEX_OPACITY=天候テクスチャの不透明度
+option.WEATHER_TEX_OPACITY.comment=雨や雪の天候テクスチャの不透明度を調整します。
+
+option.SHADOW_SMOOTHING=シャドウの滑らかさ
+option.SHADOW_SMOOTHING.comment=シャドウのシャープさを決定します。§c[-]§r この設定を下げるとシャドウのちらつきが増加し、パフォーマンスに影響を与える可能性があります。§e[*]§r この設定は、シャドウサンプル品質が「低」以上に設定されている場合にのみ機能します。
+value.SHADOW_SMOOTHING.4=非常に滑らか
+value.SHADOW_SMOOTHING.3=滑らか
+value.SHADOW_SMOOTHING.2=シャープ §c[-]
+value.SHADOW_SMOOTHING.1=非常にシャープ §c[-]
+
+option.PIXEL_SHADOW=ピクセル化されたシャドウ
+option.PIXEL_SHADOW.comment=グリッド上でワールド座標を修正し、シャドウをピクセル化します。§e[*]§r この設定はパフォーマンスに影響を与えません。
+value.PIXEL_SHADOW.0=オフ
+value.PIXEL_SHADOW.8=8x8 §e[*]
+value.PIXEL_SHADOW.16=16x16 §e[*]
+value.PIXEL_SHADOW.32=32x32 §e[*]
+value.PIXEL_SHADOW.64=64x64 §e[*]
+value.PIXEL_SHADOW.128=128x128 §e[*]
+
+option.BLOOM=ブルーム
+option.BLOOM.comment=明るいオブジェクトや湿気からのぼんやりとした輝きを有効にします。
+
+option.BLOOM_STRENGTH=ブルーム強度
+option.BLOOM_STRENGTH.comment=明るいものに輝きを与え、雨や洞窟の湿気によるブルームを調整します。§c[-]§r ブルームが強すぎると、特に湿った状態で画像が意図したよりもぼやけたり明るくなりすぎたりします。
+value.BLOOM_STRENGTH.0.027=15%
+value.BLOOM_STRENGTH.0.036=20%
+value.BLOOM_STRENGTH.0.045=25%
+value.BLOOM_STRENGTH.0.054=30%
+value.BLOOM_STRENGTH.0.063=35%
+value.BLOOM_STRENGTH.0.072=40%
+value.BLOOM_STRENGTH.0.081=45%
+value.BLOOM_STRENGTH.0.09=50%
+value.BLOOM_STRENGTH.0.10=55%
+value.BLOOM_STRENGTH.0.11=60%
+value.BLOOM_STRENGTH.0.12=65%
+value.BLOOM_STRENGTH.0.13=70%
+value.BLOOM_STRENGTH.0.14=75%
+value.BLOOM_STRENGTH.0.15=80% §c[-]
+value.BLOOM_STRENGTH.0.16=85% §c[-]
+value.BLOOM_STRENGTH.0.17=90% §c[-]
+value.BLOOM_STRENGTH.0.18=95% §c[-]
+value.BLOOM_STRENGTH.0.19=100% §c[-]
+value.BLOOM_STRENGTH.0.21=110% §c[-]
+value.BLOOM_STRENGTH.0.23=120% §c[-]
+value.BLOOM_STRENGTH.0.25=130% §c[-]
+value.BLOOM_STRENGTH.0.28=150% §c[-]
+value.BLOOM_STRENGTH.0.32=180% §c[-]
+value.BLOOM_STRENGTH.10.00=§c狂気
+
+option.IMAGE_SHARPENING=画像のシャープ化
+option.IMAGE_SHARPENING.comment=フィルターを使用して画像をシャープにします。§c[-]§r シャープ化が強すぎると、エイリアシング、ちらつき、ノイズ、微妙な明るさの変化などの視覚的なアーティファクトが発生する可能性があります。
+value.IMAGE_SHARPENING.0=オフ
+value.IMAGE_SHARPENING.1=1x
+value.IMAGE_SHARPENING.2=2x
+value.IMAGE_SHARPENING.3=3x
+value.IMAGE_SHARPENING.4=4x
+value.IMAGE_SHARPENING.5=5x
+value.IMAGE_SHARPENING.6=6x §c[-]
+value.IMAGE_SHARPENING.7=7x §c[-]
+value.IMAGE_SHARPENING.8=8x §c[-]
+value.IMAGE_SHARPENING.9=9x §c[-]
+value.IMAGE_SHARPENING.10=10x §c[-]
+
+option.LENSFLARE=レンズフレア
+option.LENSFLARE.comment=太陽や月に向かうときにカメラレンズの反射効果を追加します。§c[-]§r この効果はパフォーマンスに大きく影響を与える可能性があります。
+
+option.LENSFLARE_I=レンズフレア強度
+option.LENSFLARE_I.comment=レンズフレア効果の強度を調整します。
+
+option.TAA_MODE=テンポラルフィルター
+option.TAA_MODE.comment=テンポラルアンチエイリアシングの挙動を決定します。賢く控えめ §a[+]§r: テンポラルフィルターが少量適用され、アーティファクトが発生しないようにします。強め §e[*]§r: より優れたアンチエイリアシングを提供しますが、追加のぼやけやちらつきを引き起こします。高いフレームレートと解像度では、これがより良い選択かもしれません。OFF §c[-]§r: これをオフにするとパフォーマンスと効果の品質が悪化します。
+value.TAA_MODE.1=賢く控えめ §a[+]
+value.TAA_MODE.2=強め §e[*]
+value.TAA_MODE.0=オフ §c[-]
+
+option.MOTION_BLURRING=モーションブラー
+option.MOTION_BLURRING.comment=カメラを移動するときに画像にブラーを適用します。
+
+option.MOTION_BLURRING_STRENGTH=モーションブラー強度
+option.MOTION_BLURRING_STRENGTH.comment=モーションブラーの強度を調整します。
+
+option.WORLD_BLUR=§eワールドブラー
+option.WORLD_BLUR.comment=ワールドブラーを有効にします。距離ブラー: カメラからの距離に応じて霧のようにブラーが適用されます。被写界深度: カメラの焦点に応じてブラーが発生します。§c[-]§r この効果はパフォーマンスに大きく影響を与える可能性があります。
+value.WORLD_BLUR.0=オフ
+value.WORLD_BLUR.1=距離ブラー
+value.WORLD_BLUR.2=被写界深度
+
+option.WB_FOV_SCALED=視野にスケールされたブラー
+option.WB_FOV_SCALED.comment=ワールドブラーをカメラの視野にスケールします。これを有効にすると、ズームインしたときにワールドブラーが強くなります。
+
+option.WB_CHROMATIC=色収差ブラー
+option.WB_CHROMATIC.comment=ブラーがかかった領域に色収差を適用し、色を分離します。
+
+option.WB_ANAMORPHIC=アナモルフィックブラー
+option.WB_ANAMORPHIC.comment=ブラーを一方向に引き伸ばします。§c[-]§r このオプションはワールドブラーの品質を低下させる可能性があります。
+
+option.WB_DOF_I=被写界深度の強度
+option.WB_DOF_FOCUS=被写界深度の焦点
+option.WB_DOF_FOCUS.comment=カメラの焦点距離を決定します。自動: 画面の中央点に応じて焦点が調整されます。明るさ: ビデオ設定の「明るさ」スライダーによって焦点が決定されます。
+value.WB_DOF_FOCUS.-1=明るさ §e[*]
+value.WB_DOF_FOCUS.0=自動
+
+option.WB_DB_DAY_I=距離ブラー - 日中
+option.WB_DB_NIGHT_I=距離ブラー - 夜間 & 室内
+option.WB_DB_RAIN_I=距離ブラー - 雨 & 雪
+option.WB_DB_WATER_I=距離ブラー - 水中
+option.WB_DB_NETHER_I=距離ブラー - ネザー
+option.WB_DB_END_I=距離ブラー - エンド
+
+option.VIGNETTE_R=ヴィネット
+option.VIGNETTE_R.comment=画面の端に暗さを適用します。
+
+option.CHROMA_ABERRATION=色収差
+option.CHROMA_ABERRATION.comment=画面の端に向かって異なる色を分離します。§c[-]§r 色収差は画像がぼやけた感じになる原因となるため、高い値はゲームプレイには推奨されません。
+value.CHROMA_ABERRATION.4=4 §c[-]
+value.CHROMA_ABERRATION.5=5 §c[-]
+value.CHROMA_ABERRATION.6=6 §c[-]
+value.CHROMA_ABERRATION.7=7 §c[-]
+value.CHROMA_ABERRATION.8=8 §c[-]
+
+option.FANCY_GLASS=改良されたガラス
+option.FANCY_GLASS.comment=通常のガラスに半透明のレイヤーを追加して改善します。§c[-]§r Sodiumのバグにより、Irisでは機能しません。§e[*]§r RPサポートオプションをIntegrated PBR+に設定する必要があります。
+
+option.GREEN_SCREEN_LIME=グリーンスクリーン用ライムブロック
+option.GREEN_SCREEN_LIME.comment=「ライムコンクリート」、「ライムウール」、および「ライムカーペット」をビデオ編集用のグリーンスクリーンに変えます。ヒント1: 「ブルーム」オプションをオフにして分離を改善します。ヒント2: ライムカーペットの下にライトを置いて照明を追加します。ヒント3: アンチエイリアシング（FXAA）をオフにし、パフォーマンス設定でディテール品質を芋に設定して、すべてのフィルタリングを無効にし、ピクセルパーフェクトな分離を実現します。
+
+option.HAND_SWAYING=手の揺れ
+option.HAND_SWAYING.comment=プレイヤーの手にゆっくりとした動きを追加して、呼吸アニメーションをシミュレートします。
+value.HAND_SWAYING.0=オフ
+value.HAND_SWAYING.1=控えめ
+value.HAND_SWAYING.2=通常
+value.HAND_SWAYING.3=強め
+
+option.LESS_LAVA_FOG=溶岩や雪の中の霧を減らす
+option.LESS_LAVA_FOG.comment=溶岩の霧や粉雪の霧を減らし、視認性を向上させます。
+
+option.REDUCE_CLOSE_PARTICLES=接近粒子の減少
+option.REDUCE_CLOSE_PARTICLES.comment=カメラに近い粒子の不透明度を減らして、視認性を向上させます。
+
+option.SNOWY_WORLD=雪に覆われた世界
+option.SNOWY_WORLD.comment=世界全体を雪で覆います。
+
+option.SHOW_LIGHT_LEVEL=光レベルの表示
+option.SHOW_LIGHT_LEVEL.comment=オーバーワールドでは: 黄色は夜間にモンスターがスポーンできることを意味し、赤は常時モンスターがスポーンできることを意味します。ネザーやエンドでは: 黄色は一部のモンスターがスポーンできることを意味し、赤はすべてのモンスターがスポーンできることを意味します。§e[*]§r 正確な結果を得るには、スムーズライティングを無効にしてください。
+value.SHOW_LIGHT_LEVEL.0=オフ
+value.SHOW_LIGHT_LEVEL.1=スパイダーアイを持つ
+value.SHOW_LIGHT_LEVEL.2=光源を持つ
+value.SHOW_LIGHT_LEVEL.3=常にオン
+
+option.COLOR_CODED_PROGRAMS=カラーコード化されたプログラム §c[-]§r
+option.COLOR_CODED_PROGRAMS.comment=ジオメトリをレンダリングするために使用されているシェーダープログラムを表示します。§c[-]§r このオプションは開発目的のみに使用されるべきで、ゲームプレイには使用しないでください。§e[*]§r 色の値はシェーダーパックファイル内のshaders/lib/misc/colorCodedPrograms.glslで確認できます。
+
+option.GLOWING_COLORED_PARTICLES=発光するカラーパーティクルの強制 §c[-]§r
+option.GLOWING_COLORED_PARTICLES.comment=技術的に「カラー」であるすべてのパーティクルを発光させます。§c[-]§r このオプションは、発光してはいけない素材でできた多くのパーティクルが発光してしまうため、一般的なゲームプレイには推奨されません。
+
+option.MINIMUM_LIGHT_MODE=洞窟照明
+option.MINIMUM_LIGHT_MODE.comment=スカイライトのないエリアに追加の照明を追加します。§a[+]§r 「デフォルト」オプションは、ビデオ設定の「明るさ」スライダーに応じて照明を決定します。§c[-]§r この設定を大幅に変更すると、照明バランスが崩れる可能性があります。
+value.MINIMUM_LIGHT_MODE.0=非常に暗い
+value.MINIMUM_LIGHT_MODE.1=暗い
+value.MINIMUM_LIGHT_MODE.2=デフォルト §a[+]
+value.MINIMUM_LIGHT_MODE.3=明るい
+value.MINIMUM_LIGHT_MODE.4=非常に明るい
+value.MINIMUM_LIGHT_MODE.5=超明るい §c[-]
+value.MINIMUM_LIGHT_MODE.6=極めて明るい §c[-]
+
+option.AMBIENT_MULT=シャドウライトの乗数
+option.AMBIENT_MULT.comment=シャドウに見える環境照明の量を決定します。§c[-]§r この設定を大幅に変更すると、照明バランスが崩れる可能性があります。
+
+option.PLAYER_SHADOW=プレイヤーシャドウ §e[*]§r
+option.PLAYER_SHADOW.comment=プレイヤーがシャドウを投影するかどうかを決定します。§e[*]§r この設定はIrisでのみ動作します。§e[*]§r 「シャドウサンプル品質」がオフの場合、この設定は無効になります。
+value.PLAYER_SHADOW.-1=オフ
+value.PLAYER_SHADOW.1=オン
+
+option.GENERATED_NORMALS=生成された法線
+option.GENERATED_NORMALS.comment=表面に自動生成された凹凸のディテールを追加します。§e[*]§r RPサポートオプションをIntegrated PBR+に設定する必要があります。
+
+option.COATED_TEXTURES=コーティングされたテクスチャ
+option.COATED_TEXTURES.comment=テクスチャに自動生成された埃っぽいディテールを追加します。§e[*]§r RPサポートオプションをIntegrated PBR+に設定する必要があります。
+
+option.ENTITY_GN_AND_CT=エンティティへのGNとCTの許可
+option.ENTITY_GN_AND_CT.comment=生成された法線やコーティングされたテクスチャがエンティティに表示されるかどうかを決定します。§e[*]§r メインのGNまたはCTオプションが無効になっている場合、エンティティにGNまたはCTが表示されることはありません。
+
+option.GENERATED_NORMAL_MULT=生成された法線の強度
+option.GENERATED_NORMAL_MULT.comment=表面に自動生成された凹凸のディテールの強度を調整します。
+
+option.COATED_TEXTURE_MULT=コーティングされたテクスチャの強度
+option.COATED_TEXTURE_MULT.comment=テクスチャに自動生成された埃っぽいディテールの強度を調整します。
+
+option.GLOWING_ORE_MASTER=§e発光する鉱石を有効にする
+option.GLOWING_ORE_MASTER.comment=発光する鉱石の機能を有効にします。§e[*]§r 「デフォルト」を選択すると、「ビジュアルスタイル」が「Unbound」に設定されている場合にのみ、発光する鉱石が有効になります。§e[*]§r このオプションが有効になっていない場合、以下の設定は機能しません。
+value.GLOWING_ORE_MASTER.0=§cオフ
+value.GLOWING_ORE_MASTER.1=デフォルト §e[*]
+value.GLOWING_ORE_MASTER.2=§aオン
+
+option.GLOWING_ORE_MULT=鉱石の発光強度
+option.GLOWING_ORE_MULT.comment=発光する鉱石の発光強度を決定します。
+
+option.GLOWING_ORE_IRON=発光する鉄鉱石
+option.GLOWING_ORE_GOLD=発光する金鉱石
+option.GLOWING_ORE_COPPER=発光する銅鉱石
+option.GLOWING_ORE_REDSTONE=発光するレッドストーン鉱石 §e[*]§r
+option.GLOWING_ORE_REDSTONE.comment=§e[*]§r レッドストーン鉱石は、この設定に関係なく、「アクティブ化」されている場合は常に発光します。
+option.GLOWING_ORE_LAPIS=発光するラピスラズリ鉱石
+option.GLOWING_ORE_EMERALD=発光するエメラルド鉱石
+option.GLOWING_ORE_DIAMOND=発光するダイヤモンド鉱石
+option.GLOWING_ORE_NETHERQUARTZ=発光するネザー石英鉱石
+option.GLOWING_ORE_NETHERGOLD=発光するネザー金鉱石
+option.GLOWING_ORE_GILDEDBLACKSTONE=発光する金付きブラックストーン
+option.GLOWING_ORE_ANCIENTDEBRIS=発光する古代の残骸
+option.GLOWING_ORE_MODDED=発光するMOD鉱石 §e[*]§r
+option.GLOWING_ORE_MODDED.comment=§e[*]§r Complementary-->shaders-->block.propertiesファイルにMODの鉱石IDを追加することで、それらを発光させることができます。block.propertiesはメモ帳などの任意のテキストエディタで開くことができ、その後「block.10024=」の隣にMODの鉱石ブロックIDを追加します。
+
+option.GLOWING_AMETHYST=発光するアメジスト
+value.GLOWING_AMETHYST.0=§cオフ
+value.GLOWING_AMETHYST.1=クリスタル
+value.GLOWING_AMETHYST.2=クリスタル & ブロック
+
+option.GLOWING_LICHEN=発光するグロウライケン
+value.GLOWING_LICHEN.0=§cオフ
+value.GLOWING_LICHEN.1=閉じたエリアで
+value.GLOWING_LICHEN.2=常に
+
+option.EMISSIVE_REDSTONE_BLOCK=発光するレッドストーンブロック
+
+option.EMISSIVE_LAPIS_BLOCK=発光するラピスラズリブロック
+
+option.GLOWING_ARMOR_TRIM=発光するアーマートリム §e[*]§r
+option.GLOWING_ARMOR_TRIM.comment=アーマートリムを発光させます。§e[*]§r この機能はIrisでのみ動作します。Optifineはアーマートリムの検出をサポートしていません。
+
+option.NORMAL_MAP_STRENGTH=法線マップの強度
+option.NORMAL_MAP_STRENGTH.comment=表面の凹凸のディテールの強度を調整します。§e[*]§r RPサポートオプションをlabPBR/seuspbrに設定し、対応するリソースパックを使用する必要があります。
+
+option.CUSTOM_EMISSION_INTENSITY=カスタム発光強度
+option.CUSTOM_EMISSION_INTENSITY.comment=発光する表面の強度を調整します。§e[*]§r RPサポートオプションをlabPBR/seuspbrに設定し、対応するリソースパックを使用する必要があります。
+
+option.POM=パララックスオクルージョンマッピング
+option.POM.comment=表面に3D効果を有効にします。§c[-]§r この効果はパフォーマンスに大きく影響を与える可能性があります。§e[*]§r RPサポートオプションをlabPBR/seuspbrに設定し、対応するリソースパックを使用する必要があります。
+value.POM.false=オフ
+value.POM.true=オン §c[-]
+
+option.POM_DEPTH=POMの深度
+option.POM_DEPTH.comment=パララックスオクルージョンマッピングの深度を調整します。§e[*]§r RPサポートオプションをlabPBR/seuspbrに設定し、対応するリソースパックを使用する必要があります。
+
+option.POM_QUALITY=POMの品質
+option.POM_QUALITY.comment=パララックスオクルージョンマッピングのシャープさ/精度を調整します。§c[-]§r 200を超える値はパフォーマンスに大きく影響を与える可能性があります。§e[*]§r 100未満の値は「POMライティングモード」を「スムーズ」に強制的に設定します。§e[*]§r RPサポートオプションをlabPBR/seuspbrに設定し、対応するリソースパックを使用する必要があります。
+value.POM_QUALITY.16=16 §e[*]
+value.POM_QUALITY.32=32 §e[*]
+value.POM_QUALITY.64=64 §e[*]
+value.POM_QUALITY.256=256 §c[-]
+value.POM_QUALITY.512=512 §c[-]
+
+option.POM_DISTANCE=POMの距離
+option.POM_DISTANCE.comment=パララックスオクルージョンマッピングが計算される距離を調整します。§e[*]§r パフォーマンスの向上を図るため、50未満に保つことをお勧めします。§e[*]§r RPサポートオプションをlabPBR/seuspbrに設定し、対応するリソースパックを使用する必要があります。
+value.POM_DISTANCE.64=64 §e[*]
+value.POM_DISTANCE.128=128 §e[*]
+value.POM_DISTANCE.256=256 §e[*]
+value.POM_DISTANCE.512=512 §e[*]
+value.POM_DISTANCE.1024=1024 §e[*]
+
+option.POM_LIGHTING_MODE=POMライティングモード
+option.POM_LIGHTING_MODE.comment=POMが影響を与える表面のライティングスタイルを調整します。シャープ: 光に向かっていないPOM壁には光が当たりません。スムーズ: POM壁は壁ではないかのように光を受け続けます。§e[*]§r POM品質が100未満に設定されている場合、このオプションは「スムーズ」に強制設定されます。
+value.POM_LIGHTING_MODE.1=スムーズ
+value.POM_LIGHTING_MODE.2=シャープ
+
+option.POM_ALLOW_CUTOUT=POMをカットアウト表面で有効にする §c[-]§r
+option.POM_ALLOW_CUTOUT.comment=カットアウトブロックセクション（葉の隙間など）でPOMを機能させます。§c[-]§r この効果はパフォーマンスに大きく影響を与える可能性があります。
+
+option.DIRECTIONAL_BLOCKLIGHT=方向性のあるブロックライト
+option.DIRECTIONAL_BLOCKLIGHT.comment=表面の法線に応じてブロックライトに深みを追加します。§c[-]§r 一部の状況で視覚的なアーティファクトを引き起こす可能性があります。§c[-]§r この効果はパフォーマンスに影響を与える可能性があります。§e[*]§r RPサポートオプションをlabPBR/seuspbrに設定し、対応するリソースパックを使用する必要があります。
+value.DIRECTIONAL_BLOCKLIGHT.0=オフ
+value.DIRECTIONAL_BLOCKLIGHT.3=控えめ §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.7=通常 §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.11=強め §c[-]
+
+option.HELD_LIGHTING_MODE=動的な手持ち照明
+option.HELD_LIGHTING_MODE.comment=手持ちの光源がシーンに光を投影するようにします。
+value.HELD_LIGHTING_MODE.0=§cオフ
+value.HELD_LIGHTING_MODE.1=控えめ
+value.HELD_LIGHTING_MODE.2=通常
+
+option.BLOCKLIGHT_FLICKERING=ブロックライトのちらつき
+option.BLOCKLIGHT_FLICKERING.comment=ブロックから投影される光にちらつき効果を追加します。
+value.BLOCKLIGHT_FLICKERING.0=オフ
+
+option.WAVING_SPEED=揺れの速度
+option.WAVING_SPEED.comment=揺れの効果が発生する速度を調整します。
+
+option.WAVING_I=揺れの強度
+option.WAVING_I.comment=揺れの際にブロックがどれだけ動くかを調整します。§c[-]§r 揺れの強度が高すぎると、揺れるブロックが他のブロックに出入りすることがあります。
+value.WAVING_I.1.25=1.25 §c[-]
+value.WAVING_I.1.50=1.50 §c[-]
+value.WAVING_I.1.75=1.75 §c[-]
+value.WAVING_I.2.00=2.00 §c[-]
+value.WAVING_I.50.0=§c狂気
+
+option.NO_WAVING_INDOORS=閉じたエリアでの揺れを無効にする
+option.NO_WAVING_INDOORS.comment=スカイライトを使用して閉じたエリアでブロックが揺れるのを防ぎます。§c[-]§r この設定を有効にすると、一部のリソースパックやMODと問題が生じる可能性があります。
+
+option.WAVING_I_RAIN_MULT=雨時の揺れ乗数
+option.WAVING_I_RAIN_MULT.comment=雨の際の揺れの速度と強度を乗算します。§c[-]§r 揺れの強度が高すぎると、揺れるブロックが他のブロックに出入りすることがあります。§c[-]§r この設定を100以上に増やすと、パフォーマンスに影響を与える可能性があります。
+value.WAVING_I.125=125 §c[-]
+value.WAVING_I.150=150 §c[-]
+value.WAVING_I.175=175 §c[-]
+value.WAVING_I.200=200 §c[-]
+
+option.WAVING_FOLIAGE=揺れる草
+option.WAVING_FOLIAGE.comment=草やその他の類似した植物に動きを追加して、風をシミュレートします。
+
+option.WAVING_LEAVES=揺れる葉
+option.WAVING_LEAVES.comment=葉に動きを追加して、風をシミュレートします。
+
+option.WAVING_LAVA=揺れる溶岩テクスチャ
+option.WAVING_LAVA.comment=溶岩に常に動きを追加します。§e[*]§r 特に溶岩の揺れは「閉じたエリアでの揺れを無効にする」設定の影響を受けません。
+
+option.WAVING_LILY_PAD=揺れるスイレン
+option.WAVING_LILY_PAD.comment=スイレンとオタマジャクシに動きを追加して、水の波からの影響をシミュレートします。
+
+option.WAVING_WATER_VERTEX=揺れる水テクスチャ
+option.WAVING_WATER_VERTEX.comment=水の位置に動きを追加して、風をシミュレートします。§e[*]§r このオプションは「水波の強度」設定とは関係ありません。
+
+option.WAVING_RAIN=揺れる雨/雪のテクスチャ
+option.WAVING_RAIN.comment=降る雨や雪のテクスチャに動きを追加して、よりダイナミックに見せます。
+
+option.WORLD_OUTLINE=ワールドアウトライン
+option.WORLD_OUTLINE.comment=ブロックの周囲に明るい輪郭を追加します。§c[-]§r この効果はパフォーマンスに影響を与える可能性があります。
+
+option.WORLD_OUTLINE_THICKNESS=ワールドアウトラインの厚さ
+option.WORLD_OUTLINE_THICKNESS.comment=ワールドアウトライン効果の厚さを決定します。§c[-]§r この設定を増やすとパフォーマンスに影響を与える可能性があります。
+
+option.WORLD_OUTLINE_I=ワールドアウトラインの明るさ
+option.WORLD_OUTLINE_I.comment=ワールドアウトライン効果の強度を決定します。
+
+option.DARK_OUTLINE=ダークアウトライン
+option.DARK_OUTLINE.comment=ブロックの周囲に暗い輪郭を追加します。§c[-]§r この効果はパフォーマンスに影響を与える可能性があります。
+
+option.DARK_OUTLINE_THICKNESS=ダークアウトラインの厚さ
+option.DARK_OUTLINE_THICKNESS.comment=ダークアウトライン効果の厚さを決定します。§c[-]§r この設定を増やすとパフォーマンスに影響を与える可能性があります。
+
+option.RAIN_PUDDLES=雨の水たまり
+option.RAIN_PUDDLES.comment=雨の間に地形に水たまりを追加します。§c[-]§r 雨の水たまりはパフォーマンスに大きく影響を与える可能性があります。
+value.RAIN_PUDDLES.0=オフ
+value.RAIN_PUDDLES.1=§aオン - 水たまり
+value.RAIN_PUDDLES.2=§aオン - 完全
+value.RAIN_PUDDLES.3=§aオン - §c常に§a 水たまり
+value.RAIN_PUDDLES.4=§aオン - §c常に§a 完全
+
+option.UNDERWATER_DISTORTION=水中の歪み
+option.UNDERWATER_DISTORTION.comment=カメラが水中にあるときに画面に微妙な屈折効果を追加します。
+
+option.SELECT_OUTLINE=選択アウトライン
+option.SELECT_OUTLINE.comment=ブロック選択アウトラインの色を決定します。
+value.SELECT_OUTLINE.0=§cオフ
+value.SELECT_OUTLINE.1=デフォルト
+value.SELECT_OUTLINE.2=虹色
+value.SELECT_OUTLINE.3=色を選択
+value.SELECT_OUTLINE.4=多用途
+
+option.SELECT_OUTLINE_AUTO_HIDE=選択アウトラインの自動非表示
+option.SELECT_OUTLINE_AUTO_HIDE.comment=プレイヤーが両手のいずれにも何も持っていない場合、またはオフハンドに光源のみを持っている場合、ブロック選択アウトラインを非表示にします。
+
+option.SELECT_OUTLINE_I=SO明るさ
+option.SELECT_OUTLINE_R=SO赤
+option.SELECT_OUTLINE_G=SO緑
+option.SELECT_OUTLINE_B=SO青
+
+option.MOON_PHASE_INF_LIGHT=月の位相に基づいた夜の照明
+option.MOON_PHASE_INF_LIGHT.comment=さまざまな月の位相が夜の照明の明るさを変えるようにします。
+
+option.MOON_PHASE_INF_ATMOSPHERE=月の位相に基づいた夜の大気
+option.MOON_PHASE_INF_ATMOSPHERE.comment=さまざまな月の位相が夜の大気の明るさを変えるようにします。
+
+option.MOON_PHASE_INF_REFLECTION=月の位相に基づいた月の反射
+option.MOON_PHASE_INF_REFLECTION.comment=さまざまな月の位相が月の反射の明るさを変えるようにします。
+
+option.MOON_PHASE_FULL=満月の強度
+option.MOON_PHASE_FULL.comment=満月（最も明るい位相）の間の月の位相の影響を調整します。
+
+option.MOON_PHASE_PARTIAL=部分月の強度
+option.MOON_PHASE_PARTIAL.comment=満月と新月の間のすべての月の位相で月の位相の影響を調整します。これはMinecraftで最も頻繁に見られる位相です。
+
+option.MOON_PHASE_DARK=新月の強度
+option.MOON_PHASE_DARK.comment=新月（最も暗い位相）の間の月の位相の影響を調整します。
+
+option.CONNECTED_GLASS_EFFECT=連結ガラス
+option.CONNECTED_GLASS_EFFECT.comment=すべての種類のガラスを連結させます。§e[*]§r この機能は、パフォーマンス設定でAdvanced Colored Lightingが有効であり、システムがこれをサポートしている場合にのみ動作します。§e[*]§r "Continuity" modがインストールされている場合、この機能は自動的に無効になります。
+
+option.PORTAL_EDGE_EFFECT=発光するポータルエッジ
+option.PORTAL_EDGE_EFFECT.comment=エンドポータルとネザーポータルに発光する境界効果を追加します。§e[*]§r この機能は、パフォーマンス設定でAdvanced Colored Lightingが有効であり、システムがこれをサポートしている場合にのみ動作します。
+
+option.PUDDLE_VOXELIZATION=ガラス下の水たまり修正
+option.PUDDLE_VOXELIZATION.comment=雨の水たまり設定が有効なとき、ガラスの屋根がある閉じたエリアに雨の水たまりが形成されるのを防ぎます。§e[*]§r この機能は、パフォーマンス設定でAdvanced Colored Lightingが有効であり、システムがこれをサポートしている場合にのみ動作します。
+
+option.COLORED_LIGHT_FOG=カラードライトフォグ
+option.COLORED_LIGHT_FOG.comment=シーンに体積ブロックライトフォグを追加し、特に夜間や地下で最も見えやすくなります。§e[*]§r この機能は、パフォーマンス設定でAdvanced Colored Lightingが有効であり、システムがこれをサポートしている場合にのみ動作します。§c[-]§r この効果はパフォーマンスに大きく影響を与える可能性があります。
+
+option.COLORED_LIGHT_FOG_I=ライトフォグの強度
+option.COLORED_LIGHT_FOG_I.comment=カラードライトフォグの明るさを決定します。
+
+option.LIGHT_COLOR_MULTS=§e照明色の乗数
+option.LIGHT_COLOR_MULTS.comment=すべての表面に見られる照明の色をカスタマイズできるようにします。
+
+option.ATM_COLOR_MULTS=§e大気色の乗数
+option.ATM_COLOR_MULTS.comment=主に空や霧で見られる大気の色をカスタマイズできるようにします。
+
+option.LIGHT_MORNING_R=朝の照明の赤の乗数
+option.LIGHT_MORNING_G=朝の照明の緑の乗数
+option.LIGHT_MORNING_B=朝の照明の青の乗数
+option.LIGHT_MORNING_I=朝の照明の強度の乗数
+option.ATM_MORNING_R=朝の大気の赤の乗数
+option.ATM_MORNING_G=朝の大気の緑の乗数
+option.ATM_MORNING_B=朝の大気の青の乗数
+option.ATM_MORNING_I=朝の大気の強度の乗数
+option.LIGHT_NOON_R=正午の照明の赤の乗数
+option.LIGHT_NOON_G=正午の照明の緑の乗数
+option.LIGHT_NOON_B=正午の照明の青の乗数
+option.LIGHT_NOON_I=正午の照明の強度の乗数
+option.ATM_NOON_R=正午の大気の赤の乗数
+option.ATM_NOON_G=正午の大気の緑の乗数
+option.ATM_NOON_B=正午の大気の青の乗数
+option.ATM_NOON_I=正午の大気の強度の乗数
+option.LIGHT_NIGHT_R=夜の照明の赤の乗数
+option.LIGHT_NIGHT_G=夜の照明の緑の乗数
+option.LIGHT_NIGHT_B=夜の照明の青の乗数
+option.LIGHT_NIGHT_I=夜の照明の強度の乗数
+option.ATM_NIGHT_R=夜の大気の赤の乗数
+option.ATM_NIGHT_G=夜の大気の緑の乗数
+option.ATM_NIGHT_B=夜の大気の青の乗数
+option.ATM_NIGHT_I=夜の大気の強度の乗数
+option.LIGHT_RAIN_R=雨時の照明の赤の乗数
+option.LIGHT_RAIN_G=雨時の照明の緑の乗数
+option.LIGHT_RAIN_B=雨時の照明の青の乗数
+option.LIGHT_RAIN_I=雨時の照明の強度の乗数
+option.ATM_RAIN_R=雨時の大気の赤の乗数
+option.ATM_RAIN_G=雨時の大気の緑の乗数
+option.ATM_RAIN_B=雨時の大気の青の乗数
+option.ATM_RAIN_I=雨時の大気の強度の乗数
+option.LIGHT_NETHER_R=ネザーの照明の赤の乗数
+option.LIGHT_NETHER_G=ネザーの照明の緑の乗数
+option.LIGHT_NETHER_B=ネザーの照明の青の乗数
+option.LIGHT_NETHER_I=ネザーの照明の強度の乗数
+option.ATM_NETHER_R=ネザーの大気の赤の乗数
+option.ATM_NETHER_G=ネザーの大気の緑の乗数
+option.ATM_NETHER_B=ネザーの大気の青の乗数
+option.ATM_NETHER_I=ネザーの大気の強度の乗数
+option.LIGHT_END_R=エンドの照明の赤の乗数
+option.LIGHT_END_G=エンドの照明の緑の乗数
+option.LIGHT_END_B=エンドの照明の青の乗数
+option.LIGHT_END_I=エンドの照明の強度の乗数
+option.ATM_END_R=エンドの大気の赤の乗数
+option.ATM_END_G=エンドの大気の緑の乗数
+option.ATM_END_B=エンドの大気の青の乗数
+option.ATM_END_I=エンドの大気の強度の乗数
+
+option.XLIGHT_R=ブロックライトの赤の乗数
+option.XLIGHT_G=ブロックライトの緑の乗数
+option.XLIGHT_B=ブロックライトの青の乗数
+option.XLIGHT_I=ブロックライトの強度
