@@ -1,11 +1,11 @@
 {
-  "$schema": "file:///C:/nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "$schema": "file:///D:/operation-modPack/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
     "name": "バニラ1.19.2 (Minecraft 1.19.2)",
-    "description": "Fabric v0.14.19",
+    "description": "Fabric v0.14.19(軽量化)",
     "icon": "https://tyromarse.wstr.fr/1.19.2Pack.png",
-    "address": "tyaromars.online:25568",
+    "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -13,9 +13,6 @@
     },
     "mainServer": true,
     "autoconnect": false
-  },
-  "fabric": {
-    "version": "0.14.19"
   },
   "untrackedFiles": []
 }
