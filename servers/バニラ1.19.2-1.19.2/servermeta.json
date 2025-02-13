@@ -3,8 +3,8 @@
   "meta": {
     "version": "1.0.0",
     "name": "バニラ1.19.2 (Minecraft 1.19.2)",
-    "description": "Fabric v0.14.19(軽量化)",
-    "icon": "https://tyromarse.wstr.fr/1.19.2Pack.png",
+    "description": "Forge v43.4.0",
+    "icon": "https://github.com/oogatakun/tyaromars-launcher-icon/blob/main/%E3%83%90%E3%83%8B%E3%83%A9.png?raw=true",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -13,6 +13,9 @@
     },
     "mainServer": true,
     "autoconnect": false
+  },
+  "forge": {
+    "version": "43.4.0"
   },
   "untrackedFiles": []
 }
