@@ -413,45 +413,6 @@
           ]
         },
         {
-          "id": "generated.forgemod:badoptimizations:2.1.4@jar",
-          "name": "BadOptimizations",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 421318,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/BadOptimizations-2.1.4-1.19.1-19.2.jar",
-            "MD5": "785c40c9c6e29697606b080fd7194387"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "rogo.renderingculling.api:brute_force_rendering_culling:0.5.12@jar",
-          "name": "Brute Force Rendering Culling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 136292,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/Brute%20force%20Rendering%20Culling-forge-1.19.2-0.5.12.jar",
-            "MD5": "c47adf66f2dfb5d840b363a5dde8f6b5"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.abdelaziz:canary:0.3.3@jar",
-          "name": "Canary",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 591441,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/canary-mc1.19.2-0.3.3.jar",
-            "MD5": "7bf1e07cb02d1d2a927f304c640f53cd"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "dev.lambdaurora.lambdynlights:dynamiclightsreforged:1.19.2_v1.4.0@jar",
           "name": "Rubidium Dynamic Lights",
           "type": "ForgeMod",
@@ -469,84 +430,6 @@
             "size": 1578835,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/embeddium-0.3.18.1+mc1.19.2.jar",
             "MD5": "634c15fb16f76965938dc80b2b4fda9f"
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.6.1@jar",
-          "name": "EntityCulling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 60289,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/entityculling-forge-1.6.1-mc1.19.2.jar",
-            "MD5": "094f1d0f3aad06ee4c5bb0c3f8a208d5"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "malte0811.ferritecore:ferritecore:5.0.3@jar",
-          "name": "Ferrite Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 116824,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/ferritecore-5.0.3-forge.jar",
-            "MD5": "c556facc604bd4fc0824c4524c73b9b9"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.raphimc:immediatelyfast:1.3.4+1.19.2@jar",
-          "name": "ImmediatelyFast",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 416100,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/ImmediatelyFast-Forge-1.3.4+1.19.2.jar",
-            "MD5": "94059c7497aaede3ab8f837638dd708a"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
-          "name": "Memory Leak Fix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 227925,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/memoryleakfix-forge-1.17+-1.1.5.jar",
-            "MD5": "5dd9149414ca375ceab146242c6e84ab"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.18.1+mc1.19.2@jar",
-          "name": "ModernFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 777028,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/modernfix-forge-5.18.1+mc1.19.2.jar",
-            "MD5": "0058be0796c1c27de9a236f7eb9ce5e0"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.1.15@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 178366,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/oauth-1.1.15-1.19.2.jar",
-            "MD5": "8cfd79823f375296cd4de27a527b10a0"
-          },
-          "required": {
-            "value": false
           }
         },
         {
