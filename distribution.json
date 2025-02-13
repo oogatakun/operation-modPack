@@ -457,11 +457,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 90207,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/dynamiclightsreforged-1.19.2_v1.4.0.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/dynamiclightsreforged-1.19.2_v1.4.0.jar",
             "MD5": "67f6b3118439adc4e56724c78001e981"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -553,13 +550,13 @@
           }
         },
         {
-          "id": "net.coderbot.iris:oculus:1.6.9a@jar",
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
           "name": "Oculus",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3503720,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9a.jar",
-            "MD5": "9d41127433fdeb778e51658fb9696a8a"
+            "size": 3499284,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
           }
         },
         {
@@ -573,13 +570,23 @@
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra.client:sodiumextra:0.4.17+mc1.19.2-build.71@jar",
+          "id": "me.flashyreese.mods.sodiumextra:rubidium_extra:0.4.19+mc1.19.2-build.105@jar",
           "name": "Rubidium Extra",
           "type": "ForgeMod",
           "artifact": {
-            "size": 298970,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/rubidium-extra-0.4.17+mc1.19.2-build.71.jar",
-            "MD5": "9eeff84fa19e71eee4cb3c8e3ac18b76"
+            "size": 317160,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+            "MD5": "625cd59e097bd63998d08c418a715fdc"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.reeses_sodium_options:textrues_embeddium_options:0.1.1+mc1.19.2@jar",
+          "name": "TexTrue's Embeddium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 132729,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/textrues_embeddium_options-0.1.1+mc1.19.2.jar",
+            "MD5": "0bc5bc5d8c008b731893f31f40e2c1a4"
           }
         },
         {
