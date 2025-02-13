@@ -413,14 +413,217 @@
           ]
         },
         {
-          "id": "OptiFine_1.19.2_HD_U_I2.jar",
-          "name": "OptiFine_1.19.2_HD_U_I2.jar",
+          "id": "generated.forgemod:badoptimizations:2.1.4@jar",
+          "name": "BadOptimizations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 421318,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/BadOptimizations-2.1.4-1.19.1-19.2.jar",
+            "MD5": "785c40c9c6e29697606b080fd7194387"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "rogo.renderingculling.api:brute_force_rendering_culling:0.5.12@jar",
+          "name": "Brute Force Rendering Culling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136292,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/Brute%20force%20Rendering%20Culling-forge-1.19.2-0.5.12.jar",
+            "MD5": "c47adf66f2dfb5d840b363a5dde8f6b5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.abdelaziz:canary:0.3.3@jar",
+          "name": "Canary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 591441,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/canary-mc1.19.2-0.3.3.jar",
+            "MD5": "7bf1e07cb02d1d2a927f304c640f53cd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.lambdaurora.lambdynlights:dynamiclightsreforged:1.19.2_v1.4.0@jar",
+          "name": "Rubidium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90207,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/dynamiclightsreforged-1.19.2_v1.4.0.jar",
+            "MD5": "67f6b3118439adc4e56724c78001e981"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.18.1+mc1.19.2@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1578835,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/embeddium-0.3.18.1+mc1.19.2.jar",
+            "MD5": "634c15fb16f76965938dc80b2b4fda9f"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.1@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60289,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/entityculling-forge-1.6.1-mc1.19.2.jar",
+            "MD5": "094f1d0f3aad06ee4c5bb0c3f8a208d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:5.0.3@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116824,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/ferritecore-5.0.3-forge.jar",
+            "MD5": "c556facc604bd4fc0824c4524c73b9b9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.3.4+1.19.2@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 416100,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/ImmediatelyFast-Forge-1.3.4+1.19.2.jar",
+            "MD5": "94059c7497aaede3ab8f837638dd708a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/memoryleakfix-forge-1.17+-1.1.5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.18.1+mc1.19.2@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 777028,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/modernfix-forge-5.18.1+mc1.19.2.jar",
+            "MD5": "0058be0796c1c27de9a236f7eb9ce5e0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sintinium:oauth:1.1.15@jar",
+          "name": "OAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178366,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/oauth-1.1.15-1.19.2.jar",
+            "MD5": "8cfd79823f375296cd4de27a527b10a0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9a@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3503720,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9a.jar",
+            "MD5": "9d41127433fdeb778e51658fb9696a8a"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.8.2@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511586,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/radium-0.8.2.jar",
+            "MD5": "c764d38f2e1d1293f705449cb6f485bf"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra.client:sodiumextra:0.4.17+mc1.19.2-build.71@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 298970,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/rubidium-extra-0.4.17+mc1.19.2-build.71.jar",
+            "MD5": "9eeff84fa19e71eee4cb3c8e3ac18b76"
+          }
+        },
+        {
+          "id": "ja_jp.json",
+          "name": "ja_jp.json",
           "type": "File",
           "artifact": {
-            "size": 6924339,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/mods/OptiFine_1.19.2_HD_U_I2.jar",
-            "MD5": "0d993ded4b5172124a2184a4b02ec9d6",
-            "path": "mods/OptiFine_1.19.2_HD_U_I2.jar"
+            "size": 342,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/embeddium/lang/ja_jp.json",
+            "MD5": "e0a89d20e26e312a44fb9a114a1344bb",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/embeddium/lang/ja_jp.json"
+          }
+        },
+        {
+          "id": "ja_jp.json",
+          "name": "ja_jp.json",
+          "type": "File",
+          "artifact": {
+            "size": 12144,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/sodium/lang/ja_jp.json",
+            "MD5": "aa3848a18d5eda830cae25988996623c",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/sodium/lang/ja_jp.json"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 167,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.mcmeta",
+            "MD5": "aad7373109f52651965478784bb03d1b",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 21108,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.png",
+            "MD5": "fbc1413ed605064b9920339159ed9e60",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.png"
           }
         },
         {
