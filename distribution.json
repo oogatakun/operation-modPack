@@ -413,16 +413,47 @@
           ]
         },
         {
-          "id": "net.optifine:optifine:1.19.2_HD_U_I2@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
+          "id": "OptiFine_1.19.2_HD_U_I2.jar",
+          "name": "OptiFine_1.19.2_HD_U_I2.jar",
+          "type": "File",
           "artifact": {
             "size": 6924339,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/OptiFine_1.19.2_HD_U_I2.jar",
-            "MD5": "0d993ded4b5172124a2184a4b02ec9d6"
-          },
-          "required": {
-            "value": false
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/mods/OptiFine_1.19.2_HD_U_I2.jar",
+            "MD5": "0d993ded4b5172124a2184a4b02ec9d6",
+            "path": "mods/OptiFine_1.19.2_HD_U_I2.jar"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09.zip",
+          "name": "BSL_v8.2.09.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954784,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/shaderpacks/BSL_v8.2.09.zip",
+            "MD5": "4443556b4e0d63394f0df1297e484454",
+            "path": "shaderpacks/BSL_v8.2.09.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.zip",
+          "name": "BSL_v8.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 925936,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/shaderpacks/BSL_v8.2.zip",
+            "MD5": "f8ccfb82d095d74a16062fb2b37444ff",
+            "path": "shaderpacks/BSL_v8.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 442386,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "MD5": "0eee0a58a691363ef57366fd562a7ab3",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
           }
         }
       ]
