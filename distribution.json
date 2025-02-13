@@ -550,6 +550,1033 @@
           }
         }
       ]
+    },
+    {
+      "id": "金制度-1.19.2",
+      "name": "金制度 (Minecraft 1.19.2)",
+      "description": "Forge v43.4.0",
+      "icon": "https://github.com/oogatakun/tyaromars-launcher-icon/blob/main/%E9%87%91%E5%88%B6%E5%BA%A6.png?raw=true",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7374,
+            "MD5": "be3ff619a8976b4af4e159f55032fb9c",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.4.0/lowcodelanguage-1.19.2-43.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15497,
+                "MD5": "9c53b33e3ff6e00a7203e1dad743b91a",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/versions/1.19.2-forge-43.4.0/1.19.2-forge-43.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 113639,
+                "MD5": "c1d9687413a7ba4cb394b1920fd50891",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.4.0/fmlcore-1.19.2-43.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16491,
+                "MD5": "c14e2d1e7a0ee907f4f10dd433413505",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.4.0/javafmllanguage-1.19.2-43.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4984,
+                "MD5": "78beda603b4135fd6d6c9e2d9ec9cdf5",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.4.0/mclanguage-1.19.2-43.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2715289,
+                "MD5": "bc3d9650b61f1e593d7136c26cb2cac9",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.19.2-43.4.0/forge-1.19.2-43.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5419290,
+                "MD5": "108e83968d29d55c746567a3d0e511a7",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.19.2-43.4.0/forge-1.19.2-43.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261210,
+                "MD5": "2e2f05cc5404c1771d5edb9ccc8d608a",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.4.0/fmlloader-1.19.2-43.4.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.teamabnormals.abnormals_delight.core:abnormals_delight:4.1.2@jar",
+          "name": "Abnormals Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 611209,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/abnormals_delight-1.19.2-4.1.2.jar",
+            "MD5": "f8b04fa82225df7ab6e791eed3f26bc5"
+          }
+        },
+        {
+          "id": "net.mcreator:aetherdelight:1.0.0@jar",
+          "name": "Aether Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199305,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/aether_delight_1.0.0_forge_1.19.2.jar",
+            "MD5": "a011b879536cea75c76c9cfbcadc224a"
+          }
+        },
+        {
+          "id": "net.mcreator:aquaculturedelight:1.0.0@jar",
+          "name": "Aquaculture Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101858,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/aquaculture_delight_1.0.0_forge_1.19.2.jar",
+            "MD5": "e97ce68118213fc9557ebfa9a906d7c8"
+          }
+        },
+        {
+          "id": "com.hollingsworth.arsnouveau:ars_nouveau:3.23.0@jar",
+          "name": "Ars Nouveau",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14558041,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/ars_nouveau-1.19.2-3.23.0.jar",
+            "MD5": "62652f100fd0380d363503c128443967"
+          }
+        },
+        {
+          "id": "net.mcreator:babydelight:1.0.2@jar",
+          "name": "Baby Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37887,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/baby_delight_1.0.2_forge_1.19.2.jar",
+            "MD5": "482538b53ea9205af3643d5e4b83ad5b"
+          }
+        },
+        {
+          "id": "com.teamabnormals.blueprint.core:blueprint:6.2.0@jar",
+          "name": "Blueprint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 992248,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/blueprint-1.19.2-6.2.0.jar",
+            "MD5": "9c94bf24bedce1f6ad01f083199617a2"
+          }
+        },
+        {
+          "id": "umpaz.brewinandchewin:brewinandchewin:1.19-2.0@jar",
+          "name": "Brewin' and Chewin'",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 366890,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/BrewinAndChewin-1.19-2.0.jar",
+            "MD5": "fb576be9f7e52a3bb68c042b12341613"
+          }
+        },
+        {
+          "id": "mod.casinocraft:casinocraft:24.0@jar",
+          "name": "CasinoCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1843643,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/CasinoCraft_1.19.2_v24.jar",
+            "MD5": "88e8eebdbb60e734ac939885e96ae8d7"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre35@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2209834,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/cfm-7.0.0-pre35-1.19.2.jar",
+            "MD5": "cd3ceae9615012f62d84fa1af860a1b0"
+          }
+        },
+        {
+          "id": "net.redstonegames:chefsdelight:1.0.2-forge-1.19.2@jar",
+          "name": "Chefs Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84789,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/chefs-delight-1.0.2-forge-1.19.2.jar",
+            "MD5": "b9bea8ec60a3fed3ceebc4db5f8048b8"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:9.0.0+11@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16781,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Clumps-forge-1.19.2-9.0.0+11.jar",
+            "MD5": "d9a16dc5da321390e628e25aa79d4c8d"
+          }
+        },
+        {
+          "id": "net.brdle:collectorsreap:1.2.4@jar",
+          "name": "Collector's Reap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 521294,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/collectorsreap-1.19-1.2.4.jar",
+            "MD5": "24e1d611327e331d5871f76522942bd0"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.19.2-1.3.6@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61734,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/coroutil-forge-1.19.2-1.3.6.jar",
+            "MD5": "0dbb313af302707144a2fd4695a05913"
+          }
+        },
+        {
+          "id": "croptopia_delight:croptopiadelight:1.0@jar",
+          "name": "Croptopia Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31102,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/CroptopiaDelight-1.19.2_1.2.2-forge.jar",
+            "MD5": "050d3d8a92b03c4ec2a8394b83a8fe0b"
+          }
+        },
+        {
+          "id": "com.ncpbails:culturaldelights:0.15.5@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 230111,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/culturaldelights-1.19.2-0.15.5.jar",
+            "MD5": "ba61014c61154774d2e95eada7e85cc3"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.19.2-5.1.6.3@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 288455,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/curios-forge-1.19.2-5.1.6.3.jar",
+            "MD5": "9e4cd43f227db93debfaa1aff50d686b"
+          }
+        },
+        {
+          "id": "net.brnbrd:delightful:3.4.1@jar",
+          "name": "Delightful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 952298,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Delightful-1.19.2-3.4.1.jar",
+            "MD5": "2a436706e62eb85bd94d19b262712b93"
+          }
+        },
+        {
+          "id": "com.axedgaming:endersdelight:1.19-1.2.2@jar",
+          "name": "Ender's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117560,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/endersdelight-1.19-1.2.2.jar",
+            "MD5": "eaee36163fc5e195cf16e4f361848288"
+          }
+        },
+        {
+          "id": "cn.foggyhillside.endsdelight:ends_delight:1.19.2-2.1@jar",
+          "name": "End's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 279907,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/ends_delight-1.19.2-2.1.jar",
+            "MD5": "fb6f760b35664c84d630b16932eca2b3"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.5.1@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 69493,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/entityculling-forge-1.5.2-mc1.19.1.jar",
+            "MD5": "7faba5adc0796e38f99aae2d46eb0e43"
+          }
+        },
+        {
+          "id": "yesman.epicfight.main:epicfight:19.5.26@jar",
+          "name": "Epic Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5776680,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/epicfight-forge-19.5.26-1.19.2.jar",
+            "MD5": "c7e528c8442d165863c1154a7297e811"
+          }
+        },
+        {
+          "id": "com.blackout:extendedslabs:2.4.0@jar",
+          "name": "Extended Slabs +",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1749809,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/extendedslabs-1.19.2-2.4.0.jar",
+            "MD5": "50aa9f76bd04827c716cbe813cf6f8e6"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.19.2-1.2.4@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2769499,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/FarmersDelight-1.19.2-1.2.4.jar",
+            "MD5": "33309d175ba1410ac918f7ceac869a34"
+          }
+        },
+        {
+          "id": "umpaz.farmersrespite:farmersrespite:1.19-2.0@jar",
+          "name": "Farmer's Respite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 493349,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/FarmersRespite-1.19-2.0.jar",
+            "MD5": "92871e5a159179e1a264b92394a57bef"
+          }
+        },
+        {
+          "id": "com.abdelaziz:fastload:1.2.1+1.19.2@jar",
+          "name": "Fastload",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20501,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Fastload-Reforged-1.2.1+1.19.2.jar",
+            "MD5": "5369fa4d6355961f76cd507b827a177a"
+          }
+        },
+        {
+          "id": "shadows.fastsuite:fastsuite:4.1.1@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19301,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/FastSuite-1.19.2-4.1.1.jar",
+            "MD5": "80ea6c54a57792222ce004cff6e62f96"
+          }
+        },
+        {
+          "id": "net.mcreator.festivedelight:festive_delight:1.3.0@jar",
+          "name": "Festive Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 250268,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Festive_Delight_1.3_Forge_1.19.2.jar",
+            "MD5": "186a25c1878485ed51bb03fdc0dfbb0c"
+          }
+        },
+        {
+          "id": "generated.forgemod:fps stress test:0.0.0@jar",
+          "name": "FPS Stress Test",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7885969,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/FPS%20Stress%20Test.zip",
+            "MD5": "3c32c3eaf67c59ce7d5e5da73b5c0c47"
+          }
+        },
+        {
+          "id": "generated.forgemod:fps test:0.0.0@jar",
+          "name": "FPS Test",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1337587,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/FPS%20Test.zip",
+            "MD5": "d80849b23cd9a544d1552c77c04b0311"
+          }
+        },
+        {
+          "id": "generated.forgemod:fps winter stress test:0.0.0@jar",
+          "name": "FPS Winter Stress Test",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40208142,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/FPS%20Winter%20Stress%20Test.zip",
+            "MD5": "7df1beb016f3d2789067789deae78cee"
+          }
+        },
+        {
+          "id": "bre2el.fpsreducer:fpsreducer:1.19.2-2.1@jar",
+          "name": "FPS Reducer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123098,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/FpsReducer2-forge-1.19.2-2.1.jar",
+            "MD5": "eb3eacbd713dbd9b333cfa210a700a35"
+          }
+        },
+        {
+          "id": "net.mcreator.galospheredelight:galosphere_delight:1.1.0@jar",
+          "name": "Galosphere Delight (by NoCube)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84979,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/galosphere_delight_1.1.0_forge_1.19.2.jar",
+            "MD5": "0e907caf4a7212eed88d407c142ce83f"
+          }
+        },
+        {
+          "id": "net.morimori0317.gmmo:gamemenumodoption:1.18@jar",
+          "name": "Game Menu Mod Option",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95113,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/GameMenuModOption-1.19-1.18.jar",
+            "MD5": "7ef765acd05512a589ec458b29a22db4"
+          }
+        },
+        {
+          "id": "net.joefoxe:hexerei:0.3.3.1@jar",
+          "name": "Hexerei",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9583038,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/hexerei-0.3.3.1.jar",
+            "MD5": "d5b36d62df3f1864a5fd4179d679163f"
+          }
+        },
+        {
+          "id": "net.crow.italiandelight:italian_delight:1.19.2-2.0@jar",
+          "name": "Italian Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285831,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/italiandelight-1.19.2-2.0.jar",
+            "MD5": "830944459a1282649037a7e208f51862"
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:1.0.1@jar",
+          "name": "Just Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7849,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/justzoom_forge_1.0.1-1_MC_1.19.jar",
+            "MD5": "ae41761622ccb21c157f786685ec0d2b"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.5.3@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 574297,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/konkrete_forge_1.5.3_MC_1.19-1.19.2.jar",
+            "MD5": "ffa5871924447d2c6614876ec41e3612"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14972,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/lazydfu-1.19-1.0.2.jar",
+            "MD5": "e395095b221c320c50105e8d447c6ce0"
+          }
+        },
+        {
+          "id": "mod.lucky77:lucky77:4.0@jar",
+          "name": "Lucky77",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 221142,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Lucky77_1.19.2_v04.jar",
+            "MD5": "ae47fad6725cac64ce50e625f599c441"
+          }
+        },
+        {
+          "id": "com.sammy.minersdelight:miners_delight:1.19.2-1.1.2@jar",
+          "name": "Miner's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 396505,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/miners_delight-1.19.2-1.1.2.jar",
+            "MD5": "a18b5498e4945e6783358137e2371a8a"
+          }
+        },
+        {
+          "id": "vazkii.neat:neat:1.19-32@jar",
+          "name": "Neat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23861,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Neat-1.19-32.jar",
+            "MD5": "99a105dd7d9ec551544171d721963428"
+          }
+        },
+        {
+          "id": "umpaz.nethersdelight:nethersdelight:1.19-3.1@jar",
+          "name": "Nether's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 344436,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/NethersDelight-1.19-3.1.jar",
+            "MD5": "505bdfac61f75df19c9acab092f0351d"
+          }
+        },
+        {
+          "id": "virtuoel.no_fog:no_fog:1.3.6+1.19.2-forge@jar",
+          "name": "No Fog",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 59220,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/NoFog-1.3.6+1.19.2-forge.jar",
+            "MD5": "61cb01233466e48c4de78e63c259ff67"
+          }
+        },
+        {
+          "id": "com.scouter:oceansdelight:1.0.2-1.19.2@jar",
+          "name": "Ocean's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105756,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/oceansdelight-1.0.2-1.19.2.jar",
+            "MD5": "9a92a3780cb1805cf9f20e2a8d3eb1e6"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3499284,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
+          }
+        },
+        {
+          "id": "com.alrex:parcool:1.19.2-3.2.1.2-R@jar",
+          "name": "ParCool!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 832211,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/ParCool-1.19.2-3.2.1.2-R.jar",
+            "MD5": "9bb61e6ef5da57efe4dfadfd0c569886"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.19.2-77@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 635370,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Patchouli-1.19.2-77.jar",
+            "MD5": "5727784bad9e215a74a64107c1e45036"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:7.4.0@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252226,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/Placebo-1.19.2-7.4.0.jar",
+            "MD5": "2a30e60554f15a9c15932a5d0601c818"
+          }
+        },
+        {
+          "id": "com.abdelaziz.pluto.mod.shared:pluto:0.0.6@jar",
+          "name": "Pluto",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 216424,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/pluto-mc1.19.2-0.0.6.jar",
+            "MD5": "64683e24f1b12282f513c60f63eb60d4"
+          }
+        },
+        {
+          "id": "net.mcreator:quarkdelight:1.0.0@jar",
+          "name": "Quark Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72566,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/quark_delight_1.0.0_forge_1.19.2.jar",
+            "MD5": "2f4cf3bc1fd175ceac67e12a3d422d7c"
+          }
+        },
+        {
+          "id": "net.caffeinemc.phosphor:radon:0.8.2@jar",
+          "name": "Radon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98778,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/radon-0.8.2.jar",
+            "MD5": "e92c2682fb7208f12c9409a68b12a20d"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:rubidium_extra:0.4.19+mc1.19.2-build.105@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317160,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+            "MD5": "625cd59e097bd63998d08c418a715fdc"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.2c@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1407451,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/rubidium-mc1.19.2-0.6.2c.jar",
+            "MD5": "b9d54d5171598463ef4456083eeb3ce8"
+          }
+        },
+        {
+          "id": "com.abdelaziz:saturn:0.0.1@jar",
+          "name": "Saturn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20765,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/saturn-mc1.19.2-0.0.1.jar",
+            "MD5": "e454697ca2a44e229a78fcbbd795f074"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod:sit:1.3.3@jar",
+          "name": "Sit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13025,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/sit-1.19-1.3.3.jar",
+            "MD5": "bc4b64e6635fbbe510c5f2506a967068"
+          }
+        },
+        {
+          "id": "com.abdelaziz:smoothboot:0.0.1@jar",
+          "name": "Smooth Boot (Reloaded)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39849,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/smoothboot(reloaded)-mc1.19.2-0.0.1.jar",
+            "MD5": "2034a32a93c02d416525d500f101b34d"
+          }
+        },
+        {
+          "id": "someassemblyrequired:some_assembly_required:1.19.2-3.0.3@jar",
+          "name": "Some Assembly Required",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368147,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/some-assembly-required-1.19.2-3.0.3.jar",
+            "MD5": "5051f2d91c9ba1d53957e2e3b5c424ce"
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.1.1+forge.a3aea74@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110720,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/starlight-1.1.1+forge.cf5b10b.jar",
+            "MD5": "56d04ee1894860ae595024e47a495ccb"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods:reeses_sodium_options:1.0.7-mc1.19.2@jar",
+          "name": "TexTrue's Rubidium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212100,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/TextruesRubidiumOptions-1.0.7-mc1.19.2.jar",
+            "MD5": "a248359c110f22e6a3e7fffc6111849e"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.19.2-1.0.14@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162555,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/watut-forge-1.19.2-1.0.14.jar",
+            "MD5": "ccb8322313173892c7d14c69c69fa237"
+          }
+        },
+        {
+          "id": "reascer.wom.main:wom:19.1.7.37@jar",
+          "name": "Weapons of Minecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10102831,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/WeaponsOfMiracles-19.1.7.37.jar",
+            "MD5": "8ccca09ba92f6f8812390c83fc3ef5a1"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.12+6240-87f4ae1@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5650155,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E9%87%91%E5%88%B6%E5%BA%A6-1.19.2/forgemods/required/worldedit-mod-7.2.12.jar",
+            "MD5": "35923b44d8e81af4cb310b578f689b73"
+          }
+        }
+      ]
     }
   ]
 }
