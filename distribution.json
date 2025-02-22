@@ -349,9 +349,9 @@
           "name": "ja_jp.json",
           "type": "File",
           "artifact": {
-            "size": 342,
+            "size": 346,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/embeddium/lang/ja_jp.json",
-            "MD5": "e0a89d20e26e312a44fb9a114a1344bb",
+            "MD5": "03096ab9d8f530aefdc701c30031d84b",
             "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/embeddium/lang/ja_jp.json"
           }
         },
@@ -360,9 +360,9 @@
           "name": "ja_jp.json",
           "type": "File",
           "artifact": {
-            "size": 12144,
+            "size": 12210,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/sodium/lang/ja_jp.json",
-            "MD5": "aa3848a18d5eda830cae25988996623c",
+            "MD5": "4dc92e4df76908fe7638f669a818e06a",
             "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/sodium/lang/ja_jp.json"
           }
         },
@@ -835,9 +835,9 @@
           "name": "mtsconfig.json",
           "type": "File",
           "artifact": {
-            "size": 11821,
+            "size": 12066,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/files/config/mtsconfig.json",
-            "MD5": "f947316e83259383d78bf4197a0c92dc",
+            "MD5": "6388c489ddb80dbb593a178bc418dcfe",
             "path": "config/mtsconfig.json"
           }
         },
@@ -846,9 +846,9 @@
           "name": "mtsconfigclient.json",
           "type": "File",
           "artifact": {
-            "size": 18736,
+            "size": 19379,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/files/config/mtsconfigclient.json",
-            "MD5": "70d10fd727f1152f3f77c9995e1f0e50",
+            "MD5": "91f99363b44c427c2ab1638bc1f9834c",
             "path": "config/mtsconfigclient.json"
           }
         },
