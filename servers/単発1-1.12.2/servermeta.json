@@ -1,17 +1,16 @@
 {
-  "$schema": "file:///C:/nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "$schema": "file:///D:/operation-modPack/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
     "name": "単発1 (1.12.2)",
-    "description": "Forge v14.23.5.2860",
-    "icon": "https://tyromarse.wstr.fr/Pack1.png",
-    "address": "tyaromars.online:25568",
+    "description": "14.23.5.2860",
+    "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": false
   },
   "forge": {

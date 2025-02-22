@@ -176,17 +176,17 @@
     {
       "id": "単発1-1.12.2",
       "name": "単発1 (1.12.2)",
-      "description": "Forge v14.23.5.2860",
+      "description": "14.23.5.2860",
       "icon": null,
       "version": "1.0.0",
-      "address": "tyaromars.online:25568",
+      "address": "localhost:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -420,209 +420,6 @@
               }
             }
           ]
-        },
-        {
-          "id": "net.blay09.mods:cookingforblockheads:6.5.0@jar",
-          "name": "Cooking for Blockheads",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 595301,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/CookingForBlockheads_1.12.2-6.5.0.jar",
-            "MD5": "f1067937f350aba63a80089093b66724"
-          }
-        },
-        {
-          "id": "com.mia:props:2.6.3.7_1.12.2@jar",
-          "name": "Decocraft",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 16976718,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/Decocraft-2.6.3.7_1.12.2.jar",
-            "MD5": "083cf0c798ebfd6065c2db0af0419c12"
-          }
-        },
-        {
-          "id": "com.silvaniastudios.roads:furenikusroads:1.1.10@jar",
-          "name": "Fureniku's Roads",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3316649,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/Fureniku's%20Roads-1.1.10.jar",
-            "MD5": "ccde4687f588147a04293d84fe5e6f08"
-          }
-        },
-        {
-          "id": "com.mrcrayfish.furniture:cfm:6.3.2@jar",
-          "name": "MrCrayfish's Furniture Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2439199,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
-            "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
-          }
-        },
-        {
-          "id": "mcinterface1122:mts:22.14.2@jar",
-          "name": "Immersive Vehicles (formerly MTS)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5270972,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/Immersive%20Vehicles-1.12.2-22.14.2.jar",
-            "MD5": "db4301c91c1fc1c68eb041b4fda76a3f"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:4.16.1.301@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 653211,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
-            "MD5": "1dee4be93d666e2228039c551e927b35"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "journeymap:journeymap:1.12.2-5.7.1p2@jar",
-          "name": "JourneyMap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6536118,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1p2.jar",
-            "MD5": "df46c93c0800a552c3d8fc7c9ddfad54"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "cn.mcmod_mmf.mmlib:mm_lib:2.3.0@jar",
-          "name": "Mysterious Mountain Lib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 286720,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/MMLib-2.3.0.jar",
-            "MD5": "55c095da05b0f4a25b2e75745ada094f"
-          }
-        },
-        {
-          "id": "com.sintinium:oauth:1.06.1-1.12@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 46420,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/optionalon/oauth-1.06.1-1.12.jar",
-            "MD5": "dc090e808568920a924433c90af5c361"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
-          "name": "OptiFine 1.12.2_HD_U_G5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2669107,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
-            "MD5": "54e561e441192cf009803ae95873c5d0"
-          }
-        },
-        {
-          "id": "com.pam:harvestcraft:1.12.2zg@jar",
-          "name": "Pam's HarvestCraft",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4912890,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/Pam's%20HarvestCraft%201.12.2zg.jar",
-            "MD5": "e8e1ac67accdeea50116e1e92e592397"
-          }
-        },
-        {
-          "id": "com.mia.craftstudio.minecraft:ptrmodellib:1.0.5@jar",
-          "name": "Ptrmodellib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 169749,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/PTRLib-1.0.5.jar",
-            "MD5": "7376e09acb5d531d28cb4d28a7f190fd"
-          }
-        },
-        {
-          "id": "bl4ckscor3.mod:sit:v1.3@jar",
-          "name": "Sit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10110,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/sit-1.12.2-v1.3.jar",
-            "MD5": "9d2f1a96a6b80acfe779880c3d8ecf4f"
-          }
-        },
-        {
-          "id": "cn.mcmod:tofucraft:0.1.0.5@jar",
-          "name": "TofuCraftReload",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2229493,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/TofuCraftReload-0.1.0.9.jar",
-            "MD5": "d59cb01e210afa3df6d9c023a0f0b3a0"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;4814-ee1af8f@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1479765,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-SNAPSHOT-dist.jar",
-            "MD5": "1cacd1226c419fa52711a7054171a6e3"
-          }
-        },
-        {
-          "id": "mtsconfig.json",
-          "name": "mtsconfig.json",
-          "type": "File",
-          "artifact": {
-            "size": 11821,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/files/config/mtsconfig.json",
-            "MD5": "f947316e83259383d78bf4197a0c92dc",
-            "path": "config/mtsconfig.json"
-          }
-        },
-        {
-          "id": "mtsconfigclient.json",
-          "name": "mtsconfigclient.json",
-          "type": "File",
-          "artifact": {
-            "size": 18736,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/files/config/mtsconfigclient.json",
-            "MD5": "70d10fd727f1152f3f77c9995e1f0e50",
-            "path": "config/mtsconfigclient.json"
-          }
-        },
-        {
-          "id": "CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar",
-          "name": "CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2087354,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/files/mods/CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar",
-            "MD5": "66cc5074bfcad7f32c481fd5e5023b6e",
-            "path": "mods/CubicChunks-1.12.2-0.0.1208.0-SNAPSHOT-all.jar"
-          }
-        },
-        {
-          "id": "Hashiriya_Car_Pack_1.1.jar",
-          "name": "Hashiriya_Car_Pack_1.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 38031266,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E5%8D%98%E7%99%BA1-1.12.2/files/mods/Hashiriya_Car_Pack_1.1.jar",
-            "MD5": "921f77e1336b503fb15ace544bb4c53a",
-            "path": "mods/Hashiriya_Car_Pack_1.1.jar"
-          }
         }
       ]
     },
