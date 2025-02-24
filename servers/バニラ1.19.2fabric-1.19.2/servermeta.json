@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///R:/operation-modPack/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "バニラ1.19.2fabric (Minecraft 1.19.2)",
+    "description": "バニラ1.19.2fabric Running Minecraft 1.19.2 (Fabric v0.14.19)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.14.19"
+  },
+  "untrackedFiles": []
+}
