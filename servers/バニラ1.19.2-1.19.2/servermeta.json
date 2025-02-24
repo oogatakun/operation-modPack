@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/operation-modPack/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "バニラ1.19.2 (Minecraft 1.19.2)",
+    "description": "Forge v43.4.0",
+    "icon": "https://github.com/oogatakun/tyaromars-launcher-icon/blob/main/%E3%83%90%E3%83%8B%E3%83%A9.png?raw=true",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "tyaromarslauncher",
+      "largeImageText": "バニラ1.19.2",
+      "largeImageKey": "https://github.com/oogatakun/tyaromars-launcher-icon/blob/main/%E3%83%90%E3%83%8B%E3%83%A9.png?raw=true"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "43.4.0"
+  },
+  "untrackedFiles": []
+}

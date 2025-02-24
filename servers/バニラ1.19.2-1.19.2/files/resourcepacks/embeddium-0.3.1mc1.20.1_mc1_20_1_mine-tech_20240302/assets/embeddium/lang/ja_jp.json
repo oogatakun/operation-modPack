@@ -1,0 +1,4 @@
+{
+  "embeddium.conflicting_mod": "Embeddiumは、レンダリングの問題/クラッシュを引き起こすことが知られているMODの存在を検出しました。これらをアンインストールすることをお勧めします。以下のリストを参照してください。",
+  "embeddium.conflicting_mod_list": "[{2}]"
+}
