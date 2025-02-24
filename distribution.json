@@ -465,6 +465,146 @@
       ]
     },
     {
+      "id": "バニラ1.19.2fabric-1.19.2",
+      "name": "バニラ1.19.2fabric (Minecraft 1.19.2)",
+      "description": "バニラ1.19.2fabric Running Minecraft 1.19.2 (Fabric v0.14.19)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.14.19",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 825716,
+            "MD5": "6e0c1782a45c7ddd21addac2a5594865",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/fabric-loader/0.14.19/fabric-loader-0.14.19.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-fabric-0.14.19",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 1183,
+                "MD5": "53af4b7df27757796b4440f192bd9770",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/versions/1.19.2-fabric-0.14.19/1.19.2-fabric-0.14.19.json"
+              }
+            },
+            {
+              "id": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+              "name": "Fabric (tiny-mappings-parser)",
+              "type": "Library",
+              "artifact": {
+                "size": 82671,
+                "MD5": "2ecb50617a3a012062e53ca4cda50936",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.12.4+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1450446,
+                "MD5": "95595609d095c3c90f639e51bcb2bd0d",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:tiny-remapper:0.8.2",
+              "name": "Fabric (tiny-remapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 216774,
+                "MD5": "8d42acb6a5ee7e7f5c4a8bf36700e16b",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/tiny-remapper/0.8.2/tiny-remapper-0.8.2.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:access-widener:2.1.0",
+              "name": "Fabric (access-widener)",
+              "type": "Library",
+              "artifact": {
+                "size": 30866,
+                "MD5": "b10766a61b0a230c06497a0bb96acd9d",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.4",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 122445,
+                "MD5": "ffa64f03a23a4823d98703e6ce6ff397",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm/9.4/asm-9.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.4",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34331,
+                "MD5": "707cb3616c99af872dcdd00801723600",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.4/asm-analysis-9.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.4",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72781,
+                "MD5": "bf0034c3d79a244121380da0308c5ec8",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.4/asm-commons-9.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.4",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52665,
+                "MD5": "664a67683cc12753e69fce43af328204",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.4",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91549,
+                "MD5": "3e671d779360f8053109ab99ee169915",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.4/asm-util-9.4.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.19.2",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 519553,
+                "MD5": "ef08f4c5382fb6e44d3001c7f9b33f4b",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/intermediary/1.19.2/intermediary-1.19.2.jar"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "単発1-1.12.2",
       "name": "単発1 (1.12.2)",
       "description": "Forge v14.23.5.2860",
