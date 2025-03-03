@@ -451,6 +451,16 @@
           }
         },
         {
+          "id": "com.alrex:parcool:3.3.1.1@jar",
+          "name": "ParCool!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806030,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88mod-1.19.2/forgemods/required/ParCool-1.19.2-3.3.1.1.jar",
+            "MD5": "48665b5c21c7110d328a86b32b7321e2"
+          }
+        },
+        {
           "id": "fuzs.puzzleslib.impl:puzzleslib:4.4.3@jar",
           "name": "Puzzles Lib",
           "type": "ForgeMod",
