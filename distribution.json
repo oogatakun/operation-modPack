@@ -451,6 +451,16 @@
           }
         },
         {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:4.4.3@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 395272,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88mod-1.19.2/forgemods/required/PuzzlesLib-v4.4.3-1.19.2-Forge.jar",
+            "MD5": "ada0a5030dfcecdfd37f18cc9deca7c6"
+          }
+        },
+        {
           "id": "me.jellysquid.mods.lithium:radium:0.8.2@jar",
           "name": "Radium",
           "type": "ForgeMod",
