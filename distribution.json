@@ -351,6 +351,26 @@
           }
         },
         {
+          "id": "net.blay09.mods:cookingforblockheads:13.3.4@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 692127,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88mod-1.19.2/forgemods/required/cookingforblockheads-forge-1.19.2-13.3.4.jar",
+            "MD5": "9b7776ecb47ab02c6c85f26b85761c97"
+          }
+        },
+        {
+          "id": "com.razz:decocraft:3.0.0.8-beta-1.19.2@jar",
+          "name": "Decocraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55264292,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88mod-1.19.2/forgemods/required/decocraft-3.0.0.8-beta-1.19.2.jar",
+            "MD5": "59b08fec9f4cf10a19e17e56a48d3ced"
+          }
+        },
+        {
           "id": "dev.lambdaurora.lambdynlights:dynamiclightsreforged:1.19.2_v1.4.0@jar",
           "name": "Rubidium Dynamic Lights",
           "type": "ForgeMod",
