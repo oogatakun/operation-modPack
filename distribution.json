@@ -205,6 +205,17 @@
           }
         },
         {
+          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49129,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+            "MD5": "55972821247560334f8009f7f6d02070",
+            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
+          }
+        },
+        {
           "id": "ja_jp.json",
           "name": "ja_jp.json",
           "type": "File",
@@ -592,6 +603,17 @@
             "size": 15742526,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88mod-1.19.2/forgemods/required/yuushya-1.19.2-forge-2.2.2.jar",
             "MD5": "4a799ab9d8607c182cde7cede4aabbd8"
+          }
+        },
+        {
+          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49129,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88mod-1.19.2/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+            "MD5": "55972821247560334f8009f7f6d02070",
+            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
           }
         }
       ]
