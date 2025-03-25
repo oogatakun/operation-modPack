@@ -1494,6 +1494,16 @@
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%84-1.12.2/forgemods/required/TofuCraftReload-0.1.0.9.jar",
             "MD5": "d59cb01e210afa3df6d9c023a0f0b3a0"
           }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.12.2-2.5.26@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8695041,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%84-1.12.2/forgemods/required/voicechat-forge-1.12.2-2.5.26.jar",
+            "MD5": "5992cda0c9291755c879e83f2f65f432"
+          }
         }
       ]
     }
