@@ -1074,7 +1074,7 @@
     {
       "id": "脱獄-1.12.2",
       "name": "脱獄(1.12.2)",
-      "description": "まにら看守の目を盗んで脱獄しよう!!",
+      "description": "まにら看守の目を盗んで脱獄しよう！！",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -1387,16 +1387,6 @@
             "size": 2439199,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%84-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
             "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
-          }
-        },
-        {
-          "id": "mcinterface1122:mts:22.14.2@jar",
-          "name": "Immersive Vehicles (formerly MTS)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5270972,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%84-1.12.2/forgemods/required/Immersive%20Vehicles-1.12.2-22.14.2.jar",
-            "MD5": "db4301c91c1fc1c68eb041b4fda76a3f"
           }
         },
         {
