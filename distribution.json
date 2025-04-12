@@ -951,6 +951,19 @@
           }
         },
         {
+          "id": "net.minecraftcapes:minecraftcapes:12.3.6@jar",
+          "name": "MinecraftCapes Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42882,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/MinecraftCapes%20Forge%201.19.2-12.3.6.jar",
+            "MD5": "dc1a06a5fc466dacdeb9a560ad771bff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "yalter.mousetweaks:mousetweaks:2.23@jar",
           "name": "Mouse Tweaks",
           "type": "ForgeMod",
