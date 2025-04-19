@@ -362,12 +362,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 8337963,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/optionaloff/ColdSweat-2.2.5.1.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/ColdSweat-2.2.5.1.jar",
             "MD5": "4448018aea70c0d70fc495009406563f"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -376,12 +372,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7415,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/optionaloff/eternalwinter-1.3.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/eternalwinter-1.3.jar",
             "MD5": "ef64eab25d4fe7dd7c8903bb8c39dc0d"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -400,12 +392,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 142536,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/optionaloff/obfuscate-0.6.3-1.16.5.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
             "MD5": "514fe4c6c39bc1b7e474d813daab593e"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -414,12 +402,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 281227,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/optionaloff/primalwinter-forge-1.16.4-2.0.7.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/primalwinter-forge-1.16.4-2.0.7.jar",
             "MD5": "c8d3fc30fba572fc85a05709018ec87b"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -428,12 +412,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 43320575,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/optionaloff/tac-release-0.3.14.2-1.16.5.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/tac-release-0.3.14.2-1.16.5.jar",
             "MD5": "ad52fa4804a4600028c0b0b675ceca39"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -442,25 +422,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1695951,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/optionaloff/TerraForged-1.16.5-0.2.16.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/TerraForged-1.16.5-0.2.16.jar",
             "MD5": "eb71e738c8d300b98921d336bcc0bfe1"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "net.mcreator:welcometothebackrooms:1.0.0@jar",
-          "name": "WelcomeToTheBackrooms",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 379512,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/optionalon/WelcomeToTheBackrooms-0.1.jar",
-            "MD5": "3b9a764378d9ac2ad6701b84fb1fd0a7"
-          },
-          "required": {
-            "value": false
           }
         }
       ]
