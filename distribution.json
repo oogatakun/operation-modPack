@@ -9,16 +9,16 @@
   "servers": [
     {
       "id": "local-1.16.5",
-      "name": "local (Minecraft 1.16.5)",
-      "description": "v36.2.20",
+      "name": "%3%LOCAL系1.16.5(Minecraft 1.16.5)",
+      "description": "SimpleVoiceChat",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.16.5",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft",
+        "largeImageKey": "pack_numa"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -355,6 +355,76 @@
               }
             }
           ]
+        },
+        {
+          "id": "com.momosoftworks.coldsweat:cold_sweat:2.2.5.1@jar",
+          "name": "Cold Sweat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8337963,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/ColdSweat-2.2.5.1.jar",
+            "MD5": "4448018aea70c0d70fc495009406563f"
+          }
+        },
+        {
+          "id": "ichttt.mods:eternalwinter:1.3@jar",
+          "name": "Eternal Winter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7415,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/eternalwinter-1.3.jar",
+            "MD5": "ef64eab25d4fe7dd7c8903bb8c39dc0d"
+          }
+        },
+        {
+          "id": "com.kreezcraft:localizedchat:4.1.6@jar",
+          "name": "Localized Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13178,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/localizedchat-1.16.5-4.1.6.jar",
+            "MD5": "77799c7e4d1338afe2d6a622b8261dbd"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142536,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
+            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "com.alcatrazescapee:primalwinter:2.0.7@jar",
+          "name": "Primal Winter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 281227,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/primalwinter-forge-1.16.4-2.0.7.jar",
+            "MD5": "c8d3fc30fba572fc85a05709018ec87b"
+          }
+        },
+        {
+          "id": "com.tac.guns:tac:0.3.14.2@jar",
+          "name": "Timeless and Classics Guns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43320575,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/tac-release-0.3.14.2-1.16.5.jar",
+            "MD5": "ad52fa4804a4600028c0b0b675ceca39"
+          }
+        },
+        {
+          "id": "com.terraforged.mod:terraforged:0.2.16@jar",
+          "name": "TerraForged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1695951,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/TerraForged-1.16.5-0.2.16.jar",
+            "MD5": "eb71e738c8d300b98921d336bcc0bfe1"
+          }
         }
       ]
     },
