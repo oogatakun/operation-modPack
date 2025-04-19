@@ -425,6 +425,16 @@
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/TerraForged-1.16.5-0.2.16.jar",
             "MD5": "eb71e738c8d300b98921d336bcc0bfe1"
           }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.16.5-2.5.20@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7709376,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/local-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.5.20.jar",
+            "MD5": "9e5a7cdab4dd36580296f5230b38639a"
+          }
         }
       ]
     },
