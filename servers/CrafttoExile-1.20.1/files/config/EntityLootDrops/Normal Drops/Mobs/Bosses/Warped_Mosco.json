@@ -1,0 +1,10 @@
+{
+  "entityId": "alexsmobs:warped_mosco",
+  "itemId": "mmorpg:runes/net",
+  "dropChance": 10.0,
+  "minAmount": 1,
+  "maxAmount": 1,
+  "commandChance": 0.0,
+  "_comment": "",
+  "requirePlayerKill": true
+}

@@ -1,0 +1,20 @@
+{
+  "protectedFromPlayerDamage": [
+    "mca:female_villager",
+    "mca:male_villager"
+  ],
+  "preventAttackingPlayers": [
+    "mca:female_villager",
+    "mca:male_villager"
+  ],
+  "protectedFromSpellDamage": [
+    "mca:female_villager",
+    "mca:male_villager"
+  ],
+  "preventTargetingPlayers": [
+    "mca:female_villager",
+    "mca:male_villager"
+  ],
+  "blockMineAndSlashSpells": true,
+  "blockIronSpellBooks": true
+}

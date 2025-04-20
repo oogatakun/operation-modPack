@@ -1,0 +1,10 @@
+{
+  "entityId": "minecraft:warden",
+  "itemId": "mmorpg:runes/sid",
+  "dropChance": 10.0,
+  "minAmount": 1,
+  "maxAmount": 1,
+  "commandChance": 0.0,
+  "_comment": "",
+  "requirePlayerKill": true
+}

@@ -1,0 +1,19 @@
+{
+  "eventEnableMessages": {
+    "Easter": "§6[Events] §aEaster event has been enabled!",
+    "Winter": "§6[Events] §aWinter event has been enabled!",
+    "Summer": "§6[Events] §aSummer event has been enabled!",
+    "Halloween": "§6[Events] §aHalloween event has been enabled!"
+  },
+  "eventDisableMessages": {
+    "Easter": "§6[Events] §cEaster event has been disabled!",
+    "Winter": "§6[Events] §cWinter event has been disabled!",
+    "Summer": "§6[Events] §cSummer event has been disabled!",
+    "Halloween": "§6[Events] §cHalloween event has been disabled!"
+  },
+  "dropChanceEnableMessage": "§6[Events] §aDouble Drop Chance event has been enabled! §e(2x drop rates)",
+  "dropChanceDisableMessage": "§6[Events] §cDouble Drop Chance event has been disabled!",
+  "doubleDropsEnableMessage": "§6[Events] §aDouble Drops event has been enabled! §e(2x drop amounts)",
+  "doubleDropsDisableMessage": "§6[Events] §cDouble Drops event has been disabled!",
+  "_comment": "Configure broadcast messages for events"
+}

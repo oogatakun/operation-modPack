@@ -1,0 +1,23 @@
+{
+  "affected": "Mobs",
+  "id": "fire_atk",
+  "map_resist": "Fire",
+  "map_resist_bonus_needed": 0,
+  "prophecy_type": "",
+  "req": "",
+  "stats": [
+    {
+      "type": "FLAT",
+      "max": 50.0,
+      "min": 25.0,
+      "stat": "plus_phys_to_fire"
+    },
+    {
+      "type": "FLAT",
+      "max": 30.0,
+      "min": 15.0,
+      "stat": "burn_chance"
+    }
+  ],
+  "weight": 1000
+}

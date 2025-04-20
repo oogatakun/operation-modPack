@@ -1,0 +1,14 @@
+{
+  "data": {
+    "add_to": "spell_damage",
+    "adder_stat": "attack_speed",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "skill_damage_per_attack_speed",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

@@ -1,0 +1,196 @@
+{
+  "foodItems": {
+    "entries": [],
+    "isWhitelist": false
+  },
+  "trackCount": 32,
+  "resetOnDeath": false,
+  "limitProgressionToSurvival": false,
+  "minFoodsToActivate": 0,
+  "benefits": [
+    {
+      "threshold": 3,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 3,
+      "benefit": "{key:\"forge:block_reach\",op:0,type:\"att\",val:0.5d}"
+    },
+    {
+      "threshold": 6,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 6,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:0.5d}"
+    },
+    {
+      "threshold": 9,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:6.0d}"
+    },
+    {
+      "threshold": 9,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 12,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:8.0d}"
+    },
+    {
+      "threshold": 15,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:10.0d}"
+    },
+    {
+      "threshold": 19,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:12.0d}"
+    },
+    {
+      "threshold": 19,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 23,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:14.0d}"
+    },
+    {
+      "threshold": 27,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:16.0d}"
+    },
+    {
+      "threshold": 41,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:18.0d}"
+    },
+    {
+      "threshold": 41,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 45,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:20.0d}"
+    },
+    {
+      "threshold": 50,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:22.0d}"
+    },
+    {
+      "threshold": 50,
+      "benefit": "{key:\"forge:block_reach\",op:0,type:\"att\",val:0.5d}"
+    },
+    {
+      "threshold": 55,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:24.0d}"
+    },
+    {
+      "threshold": 55,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 55,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:0.5d}"
+    },
+    {
+      "threshold": 60,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:26.0d}"
+    },
+    {
+      "threshold": 65,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:28.0d}"
+    },
+    {
+      "threshold": 70,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:30.0d}"
+    },
+    {
+      "threshold": 70,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 76,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:32.0d}"
+    },
+    {
+      "threshold": 82,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:34.0d}"
+    },
+    {
+      "threshold": 88,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:36.0d}"
+    },
+    {
+      "threshold": 88,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 94,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:38.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:40.0d}"
+    },
+    {
+      "threshold": 107,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:42.0d}"
+    },
+    {
+      "threshold": 107,
+      "benefit": "{key:\"forge:block_reach\",op:0,type:\"att\",val:0.5d}"
+    },
+    {
+      "threshold": 107,
+      "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:0.003d}"
+    },
+    {
+      "threshold": 114,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:44.0d}"
+    },
+    {
+      "threshold": 114,
+      "benefit": "{key:\"combatroll:distance\",op:0,type:\"att\",val:0.5d}"
+    },
+    {
+      "threshold": 121,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:46.0d}"
+    }
+  ],
+  "shouldExcludedCount": true,
+  "complexityStandardNutrition": 5,
+  "complexityStandardSaturation": 0.6,
+  "complexityBenefitEffectModifier": 0.2,
+  "complexityNeutralEffectModifier": 0,
+  "complexityHarmEffectModifier": -0.2,
+  "foodDiversity": [
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:cooked_porkchop\"}",
+      "diversity": 2
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:golden_carrot\"}",
+      "diversity": 2
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:golden_apple\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"minecraft:enchanted_golden_apple\"}",
+      "diversity": 10
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:cake_slice\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:chocolate_pie_slice\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:apple_pie_slice\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:sweet_berry_cheesecake_slice\"}",
+      "diversity": 4
+    }
+  ]
+}

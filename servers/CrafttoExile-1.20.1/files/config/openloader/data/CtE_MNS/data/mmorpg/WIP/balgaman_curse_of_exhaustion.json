@@ -1,0 +1,45 @@
+{
+  "base_gear": "hammer",
+  "guid": "balgaman_curse_of_exhaustion",
+  "flavor_text": "",
+  "force_item_id": "roe_weapons:cursed_hammer",
+  "league": "prophecy",
+  "min_drop_lvl": 70,
+  "min_tier": 80,
+  "rarity": "unique",
+  "replaces_name": true,
+  "runable": false,
+  "unique_stats": [
+    {
+      "type": "PERCENT",
+      "max": 90.0,
+      "min": 80.0,
+      "stat": "gear_weapon_damage"
+    },
+    {
+      "type": "FLAT",
+      "max": 8.0,
+      "min": 8.0,
+      "stat": "learn_cursed_chain_lightning"
+    },
+    {
+      "type": "FLAT",
+      "max": 80.0,
+      "min": 80.0,
+      "stat": "spirit_on_kill"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "mana_regen"
+    },
+    {
+      "type": "FLAT",
+      "max": 5.0,
+      "min": 3.0,
+      "stat": "energy_regen"
+    }
+  ],
+  "weight": 100
+}

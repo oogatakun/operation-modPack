@@ -1,0 +1,12 @@
+{
+  "id": "moo",
+  "possible_bosses": [
+	"twilightforest:minoshroom"
+  ],
+  "simple_prebuilt_map": {
+    "rooms_folder": "dungeon_realm:map_boss/moo",
+    "size": 1
+  },
+  "size": 2,
+  "weight": 0
+}

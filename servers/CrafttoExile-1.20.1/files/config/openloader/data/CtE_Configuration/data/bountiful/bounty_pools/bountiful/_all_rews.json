@@ -1,0 +1,245 @@
+{
+	"content": {
+
+		"all_rew_lightmans_copper_currency": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "lightmanscurrency:coin_copper",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 50
+		},
+
+		"all_rew_stone0": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "mmorpg:stone/0",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 100
+		},
+
+		"all_rew_lightmans_iron_currency": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "lightmanscurrency:coin_iron",
+			"amount": {
+				"min": 1,
+				"max": 16
+			},
+			"unitWorth": 200
+		},
+
+		"all_rew_stone1": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "mmorpg:stone/1",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 400
+		},
+
+		"all_rew_lightmans_gold_currency": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "lightmanscurrency:coin_gold",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 800
+		},
+
+		"all_rew_level_up_orb": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "mmorpg:currency/level_up_orb",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 500
+		},
+
+		"all_rew_orb_of_quality": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "mmorpg:currency/orb_of_quality",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 500
+		},
+
+		"all_rew_affix_number_reroll": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "mmorpg:currency/affix_number_reroll",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 500
+		},
+
+		"all_rew_affix_common_reroll": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "mmorpg:currency/affix_common_reroll",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 500
+		},
+
+		"all_rew_socket_adder": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "mmorpg:currency/socket_adder",
+			"amount": {
+				"min": 1,
+				"max": 2
+			},
+			"unitWorth": 1500,
+			"weightMult": 1
+		},
+
+		"all_rew_stone2": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "mmorpg:stone/2",
+			"amount": {
+				"min": 1,
+				"max": 8
+			},
+			"unitWorth": 1600
+		},
+
+		"all_rew_primary_currency": {
+			"type": "item",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 1000,
+			"weightMult": 1.3
+		},
+
+		"all_rew_primary_currency_rare_bargain": {
+			"type": "item",
+			"rarity": "RARE",
+			"content": "minecraft:emerald",
+			"amount": {
+				"min": 1,
+				"max": 4
+			},
+			"unitWorth": 800,
+			"weightMult": 0.2
+		},
+
+		"all_rew_decree": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "bountiful:decree",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 800,
+			"weightMult": 0.35
+		},
+
+		"all_rew_spyglass": {
+			"type": "item",
+			"content": "minecraft:spyglass",
+			"rarity": "RARE",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 2500.0
+		},
+
+		"all_rew_totem_undying": {
+			"type": "item",
+			"content": "minecraft:totem_of_undying",
+			"rarity": "LEGENDARY",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000
+		},
+
+		"all_rew_arrow": {
+			"type": "item",
+			"content": "minecraft:arrow",
+			"amount": {
+				"min": 3,
+				"max": 9
+			},
+			"unitWorth": 100,
+			"weightMult": 0.4
+		},
+
+		"all_rew_glow_ink": {
+			"type": "item",
+			"content": "minecraft:glow_ink_sac",
+			"rarity": "EPIC",
+			"weightMult": 0.3,
+			"amount": {
+				"min": 1,
+				"max": 3
+			},
+			"unitWorth": 500
+		},
+
+		"all_rew_prismarine_crystals": {
+			"type": "item",
+			"content": "minecraft:prismarine_crystals",
+			"rarity": "EPIC",
+			"weightMult": 0.15,
+			"amount": {
+				"min": 1,
+				"max": 6
+			},
+			"unitWorth": 2000
+		},
+
+		"all_rew_minecart": {
+			"type": "item",
+			"content": "minecraft:tnt_minecart",
+			"rarity": "EPIC",
+			"weightMult": 0.15,
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 6000
+		},
+
+		"all_rew_axolotl_bucket": {
+			"type": "item",
+			"content": "minecraft:axolotl_bucket",
+			"rarity": "LEGENDARY",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 4000
+		}
+
+
+	}
+
+
+}

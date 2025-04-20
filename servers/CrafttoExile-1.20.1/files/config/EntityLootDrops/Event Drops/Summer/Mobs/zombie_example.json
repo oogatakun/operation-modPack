@@ -1,0 +1,11 @@
+{
+  "entityId": "minecraft:zombie",
+  "itemId": "minecraft:fire_charge",
+  "dropChance": 0.0,
+  "minAmount": 1,
+  "maxAmount": 3,
+  "nbtData": "{display:{Name:\u0027{\"text\":\"Zombie Ember\",\"color\":\"red\"}\u0027}}",
+  "commandChance": 0.0,
+  "_comment": "Example Summer event drop for zombies",
+  "requirePlayerKill": true
+}

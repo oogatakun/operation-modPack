@@ -1,0 +1,300 @@
+
+#RoeWeapons Bow and Crossbow Configuration
+[general]
+
+	[general."Arrow Types"]
+		#Allow Infinity enchantment to work with tipped arrows
+		allowTippedInfinity = true
+		#Allow Infinity enchantment to work with spectral arrows
+		allowSpectralInfinity = true
+		#Allow Infinity enchantment to work with modded arrows
+		allowModdedInfinity = true
+
+	[general.bow_0]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.bow_1]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.bow_2]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.bow_3]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.bow_4]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.bow_5]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.bow_6]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.bow_7]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.admin_bow]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 8
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 12
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.cursed_bow]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 4
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.featherdraw]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 3
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 3
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 6
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 3
+
+	[general.crossbow_0]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.crossbow_1]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.crossbow_2]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.crossbow_3]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.crossbow_4]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.crossbow_5]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.crossbow_6]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general.crossbow_7]
+		#Number of arrows shot without multishot
+		#Range: 1 ~ 10
+		baseArrowCount = 1
+		#Number of arrows consumed per shot without multishot
+		#Range: 0 ~ 10
+		baseArrowConsumption = 1
+		#Number of arrows shot with multishot
+		#Range: 1 ~ 15
+		multishotArrowCount = 3
+		#Number of arrows consumed per shot with multishot
+		#Range: 0 ~ 10
+		multishotArrowConsumption = 1
+
+	[general."Bow Enchantments"]
+		#Allow Power enchantment on bows
+		allowBowPower = true
+		#Allow Punch enchantment on bows
+		allowBowPunch = true
+		#Allow Flame enchantment on bows
+		allowBowFlame = true
+		#Allow Infinity enchantment on bows
+		allowBowInfinity = true
+		#Allow Multishot enchantment on bows
+		allowBowMultishot = true
+		#Allow Quick Charge enchantment on bows
+		allowBowQuickCharge = true
+
+	[general."Crossbow Enchantments"]
+		#Allow Power enchantment on crossbows
+		allowCrossbowPower = true
+		#Allow Multishot enchantment on crossbows
+		allowCrossbowMultishot = true
+		#Allow Quick Charge enchantment on crossbows
+		allowCrossbowQuickCharge = true
+

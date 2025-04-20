@@ -1,0 +1,9 @@
+{
+  "cost_multi": 8.0,
+  "data": "legendary",
+  "id": "legendary_gem",
+  "lvl_req": 60,
+  "modifier_type": "SKILL_GEM_RARITY",
+  "tier_req": 60,
+  "weight": 240
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "add_to": "weapon_damage",
+    "adder_stat": "health",
+    "base": 0.0,
+    "ele": "Physical",
+    "id": "total_damage_per_perc_of_health",
+    "max": 1.0E8,
+    "min": 0.0,
+    "perc": true,
+    "scale": "NONE"
+  },
+  "ser": "one_to_other"
+}

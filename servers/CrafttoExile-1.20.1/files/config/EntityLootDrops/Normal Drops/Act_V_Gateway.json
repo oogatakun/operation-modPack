@@ -1,0 +1,24 @@
+[
+  {
+    "_comment": "Act 2 Gateway spawn on mob kill",
+    "itemId": "",
+    "dropChance": 0.0,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "requiredDimension": "minecraft:the_end",
+    "command": "open_gateway {entity_x} {entity_y} {entity_z} gateways:act/v",
+    "commandChance": 1.0,
+	"requirePlayerKill": true
+  },
+  {
+    "_comment": "Act V Otherside Gateway spawn on mob kill",
+    "itemId": "",
+    "dropChance": 0.0,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "requiredDimension": "deeperdarker:otherside",
+    "command": "open_gateway {entity_x} {entity_y} {entity_z} gateways:act/v",
+    "commandChance": 1.0,
+	"requirePlayerKill": true
+  }
+]

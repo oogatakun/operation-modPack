@@ -1,0 +1,10 @@
+{
+  "entityId": "mowziesmobs:umvuthi",
+  "itemId": "mmorpg:runes/und",
+  "dropChance": 10.0,
+  "minAmount": 1,
+  "maxAmount": 1,
+  "commandChance": 0.0,
+  "_comment": "",
+  "requirePlayerKill": true
+}

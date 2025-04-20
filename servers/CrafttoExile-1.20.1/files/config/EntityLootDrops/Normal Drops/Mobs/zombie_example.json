@@ -1,0 +1,10 @@
+{
+  "entityId": "minecraft:zombie",
+  "itemId": "minecraft:stone",
+  "dropChance": 0.0,
+  "minAmount": 1,
+  "maxAmount": 3,
+  "commandChance": 0.0,
+  "_comment": "",
+  "requirePlayerKill": true
+}

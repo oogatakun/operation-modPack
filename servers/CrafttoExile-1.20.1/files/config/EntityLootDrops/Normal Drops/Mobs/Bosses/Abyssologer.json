@@ -1,0 +1,10 @@
+{
+  "entityId": "monsterplus:abyssologer",
+  "itemId": "mmorpg:runes/owd",
+  "dropChance": 5.0,
+  "minAmount": 1,
+  "maxAmount": 1,
+  "commandChance": 0.0,
+  "_comment": "",
+  "requirePlayerKill": true
+}
