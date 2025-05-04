@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "新休憩鯖",
     "description": "みんな動画撮影疲れたよね！そんな時は休憩しよう(TRGRもほどほどにね！)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "icon": "https://github.com/oogatakun/operation-modPack/blob/main/imges/kyukei.png?raw=true",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
