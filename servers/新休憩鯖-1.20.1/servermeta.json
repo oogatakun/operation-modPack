@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "新休憩鯖",
-    "description": "みんな動画撮影疲れたよね！そんな時は休憩しよう(TRGRもほどほどにね！)",
+    "description": "みんな動画撮影疲れたよね！そんな時は休憩しよう(TRGRも休憩しよう！)",
     "icon": "https://github.com/oogatakun/operation-modPack/blob/main/imges/kyukei.png?raw=true",
     "address": "localhost:25565",
     "discord": {
