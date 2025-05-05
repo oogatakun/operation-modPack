@@ -2707,6 +2707,26 @@
           }
         },
         {
+          "id": "net.minecraft.scalar.cutall:cutallsmp:2.5.2@jar",
+          "name": "CutAll SMP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27883,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/[1.20.1][forge47.1.0]mod_CutAllSMP_v2.5.2.jar",
+            "MD5": "730e0647efa00de38b248766d46677c8"
+          }
+        },
+        {
+          "id": "net.minecraft.scalar.mineall:mineallsmp:2.6.7@jar",
+          "name": "MineAll SMP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33900,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/[1.20.1][forge47.1.0]mod_MineAllSMP_v2.6.6.jar",
+            "MD5": "5a2522257fbe07fefb67187a0bc139ee"
+          }
+        },
+        {
           "id": "net.minecraft:storagebox:3.2.4@jar",
           "name": "Storage Box",
           "type": "ForgeMod",
@@ -3092,16 +3112,6 @@
           }
         },
         {
-          "id": "dev.lazurite:dropz:2.2.0+1.20.1@jar",
-          "name": "Dropz",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 59606,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/dropz-forge-2.2.0+1.20.1.jar",
-            "MD5": "97468b3e2dd78032c8ab5655942cd600"
-          }
-        },
-        {
           "id": "net.mehvahdjukaar:dummmmmmy:1.20-2.0.6@jar",
           "name": "MmmMmmMmmmmm",
           "type": "ForgeMod",
@@ -3391,16 +3401,6 @@
           }
         },
         {
-          "id": "com.robertx22.mine_and_slash:mmorpg:6.2.4@jar",
-          "name": "Mine and Slash",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7537870,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/Mine_and_Slash-1.20.1-6.2.4.jar",
-            "MD5": "d991b2aada5182c15fb2efbe9d936703"
-          }
-        },
-        {
           "id": "net.minecraftcapes:minecraftcapes:12.3.7@jar",
           "name": "MinecraftCapes",
           "type": "ForgeMod",
@@ -3510,13 +3510,13 @@
           }
         },
         {
-          "id": "net.coderbot.iris:oculus:1.6.15@jar",
+          "id": "net.irisshaders.iris:oculus:1.7.0@jar",
           "name": "Oculus",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2806574,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.6.15.jar",
-            "MD5": "22fccbe5b6067c3a96c01df54c13e621"
+            "size": 2831148,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.7.0.jar",
+            "MD5": "45b96133bb46cc61dd9778bd4fca741d"
           },
           "required": {
             "value": false
@@ -3669,13 +3669,13 @@
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra:embeddium_extra:0.5.4.4+mc1.20.1-build.131@jar",
+          "id": "me.flashyreese.mods.sodiumextra:embeddium_extra:0.5.4.3+mc1.20.1-build.121@jar",
           "name": "Embeddium Extra",
           "type": "ForgeMod",
           "artifact": {
-            "size": 568608,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
-            "MD5": "a96fb0a07b75eb07b200e8f9c0dfb9f4"
+            "size": 544113,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar",
+            "MD5": "f61cc3ea7c32ce7839467caf0ac0f113"
           },
           "required": {
             "value": false
@@ -3935,17 +3935,6 @@
             "size": 103698,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/ZZ.Terrathunder_1.20.1_v0.5.0.jar",
             "MD5": "3019d14a3e7dec4f54876171d0bb57d7"
-          }
-        },
-        {
-          "id": "DynamicSurroundings R11.zip",
-          "name": "DynamicSurroundings R11.zip",
-          "type": "File",
-          "artifact": {
-            "size": 152942843,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/files/resourcepacks/DynamicSurroundings%20R11.zip",
-            "MD5": "39187069f6aa6cddd6758c16e274f507",
-            "path": "resourcepacks/DynamicSurroundings R11.zip"
           }
         },
         {
