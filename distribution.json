@@ -3019,6 +3019,19 @@
           }
         },
         {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20300,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "7a71806a1167d866608fc2e8c7d62041"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.momosoftworks.coldsweat:cold_sweat:2.4-b02d@jar",
           "name": "Cold Sweat",
           "type": "ForgeMod",
@@ -3215,6 +3228,32 @@
           }
         },
         {
+          "id": "io.github.bumblesoftware.fastload.init:fastload:3.4.0@jar",
+          "name": "Fastload-Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66989,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/Fastload-Reforged-mc1.20.1-3.4.0.jar",
+            "MD5": "3266e638032dc9b957bf1e7372671c05"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "software.bernie.example:geckolib:4.7.1.2@jar",
           "name": "GeckoLib 4",
           "type": "ForgeMod",
@@ -3388,6 +3427,19 @@
             "size": 151141,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/JustEnoughMekanismMultiblocks-1.20.1-4.10.jar",
             "MD5": "957e93baf4322fee8f57bb7713fc57d8"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+          "name": "Krypton Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206758,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/KryptonReforged-0.2.3.jar",
+            "MD5": "5b6b46d86a9a3858c766182a4cb9c3f1"
+          },
+          "required": {
+            "value": false
           }
         },
         {
