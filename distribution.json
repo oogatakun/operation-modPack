@@ -3708,16 +3708,6 @@
           }
         },
         {
-          "id": "team.creative:playerrevive:2.0.31@jar",
-          "name": "PlayerRevive",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5298162,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
-            "MD5": "e07fc42680a0163c99c21cfa9afb9816"
-          }
-        },
-        {
           "id": "com.vicmatskiv:pointblank:1.9.6@jar",
           "name": "Point Blank",
           "type": "ForgeMod",
@@ -3917,6 +3907,19 @@
             "size": 204480,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.4.13.jar",
             "MD5": "8c09aae29dc53103be9f3614be5d5db2"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.53@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3114590,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/spark-1.10.53-forge.jar",
+            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98"
+          },
+          "required": {
+            "value": false
           }
         },
         {
