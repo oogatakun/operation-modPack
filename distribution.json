@@ -3225,6 +3225,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:gravestone:1.20.1-1.0.24@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316050,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/gravestone-forge-1.20.1-1.0.24.jar",
+            "MD5": "f2242edc6226d6347754f2b99e10a5da"
+          }
+        },
+        {
           "id": "net.joefoxe:hexerei:1.20.1-0.4.2.3@jar",
           "name": "Hexerei",
           "type": "ForgeMod",
@@ -3573,6 +3583,16 @@
             "size": 181437,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
             "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "team.creative:playerrevive:2.0.31@jar",
+          "name": "PlayerRevive",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5298162,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+            "MD5": "e07fc42680a0163c99c21cfa9afb9816"
           }
         },
         {
