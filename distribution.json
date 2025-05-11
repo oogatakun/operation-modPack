@@ -3062,6 +3062,19 @@
           }
         },
         {
+          "id": "generated.forgemod:connector:1.0.0-beta.46+1.20.1@jar",
+          "name": "Connector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5043375,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/Connector-1.0.0-beta.46+1.20.1.jar",
+            "MD5": "c12d01f7b20d6909689e458dd9fa760b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
           "name": "Continuity",
           "type": "ForgeMod",
@@ -3125,6 +3138,16 @@
             "size": 1158417,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
             "MD5": "7aabe100af362d0df92d8ea1dbc2667b"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-1.5@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13801,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/cupboard-1.20.1-1.5.jar",
+            "MD5": "758892773e97b712763bfc07f6b670ae"
           }
         },
         {
@@ -3258,6 +3281,19 @@
             "size": 271917,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/epicterrain-0.1.4b.jar",
             "MD5": "45e877c89d7c5d7ea90c48310705400f"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.2+1.11.12+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3041277,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/fabric-api-0.92.2+1.11.12+1.20.1.jar",
+            "MD5": "b430b265a793d097d5567a960c6a5492"
+          },
+          "required": {
+            "value": false
           }
         },
         {
