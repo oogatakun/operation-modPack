@@ -3075,19 +3075,6 @@
           }
         },
         {
-          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
-          "name": "Continuity",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1016666,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/continuity-3.0.0+1.20.1.forge.jar",
-            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "com.blamejared:controlling:12.0.2@jar",
           "name": "Controlling",
           "type": "ForgeMod",
@@ -3281,19 +3268,6 @@
             "size": 271917,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/epicterrain-0.1.4b.jar",
             "MD5": "45e877c89d7c5d7ea90c48310705400f"
-          }
-        },
-        {
-          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.2+1.11.12+1.20.1@jar",
-          "name": "Forgified Fabric API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3041277,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/fabric-api-0.92.2+1.11.12+1.20.1.jar",
-            "MD5": "b430b265a793d097d5567a960c6a5492"
-          },
-          "required": {
-            "value": false
           }
         },
         {
