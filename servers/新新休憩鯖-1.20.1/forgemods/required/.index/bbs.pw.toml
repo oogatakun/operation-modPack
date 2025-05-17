@@ -1,0 +1,16 @@
+filename = 'bbs-1.20.1-0.1.3-forge.jar'
+name = 'Better Block Sounds'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '75c1977e07f2cb076319f30638fa63f0e975560ed2dabf77a7faf65a2d0ca218999ec1880b771050c8c4ced085a9d5df2da13200c6b508057dc6789f8011532b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BSD4Ohjo/versions/hErmuAoB/bbs-1.20.1-0.1.3-forge.jar'
+
+[update.modrinth]
+mod-id = 'BSD4Ohjo'
+version = 'hErmuAoB'

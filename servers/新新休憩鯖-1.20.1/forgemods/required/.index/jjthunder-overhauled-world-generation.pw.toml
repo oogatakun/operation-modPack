@@ -1,0 +1,16 @@
+filename = 'ZZ.Terrathunder_1.20.1_v0.5.0.jar'
+name = 'JJThunder King of the Hills'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0258e2c749530a491683defe0b5526fb0b20910a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5297866
+project-id = 509479
