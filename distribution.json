@@ -5341,6 +5341,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:gravestone:1.20.1-1.0.24@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316050,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/gravestone-forge-1.20.1-1.0.24.jar",
+            "MD5": "f2242edc6226d6347754f2b99e10a5da"
+          }
+        },
+        {
           "id": "net.joefoxe:hexerei:1.20.1-0.4.2.3@jar",
           "name": "Hexerei",
           "type": "ForgeMod",
