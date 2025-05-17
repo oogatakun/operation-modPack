@@ -4710,6 +4710,26 @@
           }
         },
         {
+          "id": "net.minecraft.scalar.cutall:cutallsmp:2.5.2@jar",
+          "name": "CutAll SMP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27883,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/[1.20.1][forge47.1.0]mod_CutAllSMP_v2.5.2.jar",
+            "MD5": "730e0647efa00de38b248766d46677c8"
+          }
+        },
+        {
+          "id": "net.minecraft.scalar.mineall:mineallsmp:2.6.7@jar",
+          "name": "MineAll SMP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33900,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/[1.20.1][forge47.1.0]mod_MineAllSMP_v2.6.6.jar",
+            "MD5": "5a2522257fbe07fefb67187a0bc139ee"
+          }
+        },
+        {
           "id": "net.minecraft:storagebox:3.2.4@jar",
           "name": "Storage Box",
           "type": "ForgeMod",
@@ -5447,6 +5467,19 @@
           }
         },
         {
+          "id": "mezz.jei:jei:15.20.0.106@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1379220,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/optionalon/jei-1.20.1-forge-15.20.0.106.jar",
+            "MD5": "245af433575aef3a47ae73492196018f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
           "name": "Krypton Reforged",
           "type": "ForgeMod",
@@ -5908,6 +5941,16 @@
             "size": 1805868,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/simplemissiles-1.6.1-forge-1.20.1.jar",
             "MD5": "e61fd05d7b6d79c58c0bf547c04c4b30"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod:sit:1.3.5@jar",
+          "name": "Sit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14510,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%B0%E6%96%B0%E4%BC%91%E6%86%A9%E9%AF%96-1.20.1/forgemods/required/sit-1.20.1-1.3.5.jar",
+            "MD5": "87f16ae5de8125e49f3740a45b3fc1c7"
           }
         },
         {
