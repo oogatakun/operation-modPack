@@ -439,6 +439,382 @@
       ]
     },
     {
+      "id": "rojiuramod-1.12.2",
+      "name": "���H�n��mod (Minecraft 1.12.2)",
+      "description": "Forge v14.23.5.2860",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.chisel:ctm:MC1.12.2-1.0.2.31@jar",
+          "name": "CTM",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199045,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/optionalon/CTM-MC1.12.2-1.0.2.31.jar",
+            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/optionalon/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.dimdev:jeid:1.0.3-FixChunkSaving@jar",
+          "name": "JustEnoughIDs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 982959,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/JustEnoughIDs-1.0.3-FixChunkSaving.jar",
+            "MD5": "4f9ac7d997282ca33bfb49e2fc36d56d"
+          }
+        },
+        {
+          "id": "com.sintinium:oauth:1.06.1-1.12@jar",
+          "name": "OAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46420,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/optionalon/oauth-1.06.1-1.12.jar",
+            "MD5": "dc090e808568920a924433c90af5c361"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.bear.rojiura:rojiuramod:1.12.2_0.1.4.a@jar",
+          "name": "Rojiura Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4072608,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/rojiuramod-1.12.2_0.1.4.a.jar",
+            "MD5": "5a2c5da4645273d8677ccd5109796d81"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;e6b38e8@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1479535,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
+            "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+          }
+        },
+        {
+          "id": "RojiuraMod_ResourcePack_0.0.6b.zip",
+          "name": "RojiuraMod_ResourcePack_0.0.6b.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5879775,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip",
+            "MD5": "8c3cdd235267f0f34a224ebfda5ee419",
+            "path": "resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09.zip",
+          "name": "BSL_v8.2.09.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954784,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/shaderpacks/BSL_v8.2.09.zip",
+            "MD5": "4443556b4e0d63394f0df1297e484454",
+            "path": "shaderpacks/BSL_v8.2.09.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.zip",
+          "name": "BSL_v8.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 925936,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/shaderpacks/BSL_v8.2.zip",
+            "MD5": "f8ccfb82d095d74a16062fb2b37444ff",
+            "path": "shaderpacks/BSL_v8.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 442386,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "MD5": "0eee0a58a691363ef57366fd562a7ab3",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
+          }
+        }
+      ]
+    },
+    {
       "id": "バニラ1.19.2-1.19.2",
       "name": "バニラ1.19.2 (Minecraft 1.19.2)",
       "description": "Forge v43.4.0",
