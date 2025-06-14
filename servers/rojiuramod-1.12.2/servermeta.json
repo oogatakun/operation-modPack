@@ -2,7 +2,7 @@
   "$schema": "file:///D:/operation-modPack/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Å¶òHínó†mod (Minecraft 1.12.2)",
+    "name": "‚ÄªË∑ØÂú∞Ë£èmod (Minecraft 1.12.2)",
     "description": "Forge v14.23.5.2860",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
