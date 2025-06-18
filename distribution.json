@@ -769,6 +769,16 @@
           }
         },
         {
+          "id": "com.mia.craftstudio.minecraft:ptrmodellib:1.0.5@jar",
+          "name": "Ptrmodellib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169749,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/PTRLib-1.0.5.jar",
+            "MD5": "7376e09acb5d531d28cb4d28a7f190fd"
+          }
+        },
+        {
           "id": "com.bear.rojiura:rojiuramod:1.12.2_0.1.4.a@jar",
           "name": "Rojiura Mod",
           "type": "ForgeMod",
