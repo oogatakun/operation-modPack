@@ -687,6 +687,16 @@
           ]
         },
         {
+          "id": "com.kixiko:cocricotmod:1.11.0@jar",
+          "name": "CocricotMOD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2945950,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/cocricotMOD_1.12.2_v1.11.0.jar",
+            "MD5": "1517f8e2bd7ab68207e7dc524d5bb24c"
+          }
+        },
+        {
           "id": "team.chisel:ctm:MC1.12.2-1.0.2.31@jar",
           "name": "CTM",
           "type": "ForgeMod",
@@ -697,6 +707,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "com.mia:props:2.6.3.7_1.12.2@jar",
+          "name": "Decocraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16976718,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/Decocraft-2.6.3.7_1.12.2.jar",
+            "MD5": "083cf0c798ebfd6065c2db0af0419c12"
           }
         },
         {
@@ -766,6 +786,17 @@
             "size": 1479535,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
             "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+          }
+        },
+        {
+          "id": "cocricot_1.12.2_v1.11.0.zip",
+          "name": "cocricot_1.12.2_v1.11.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 42172148,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/resourcepacks/cocricot_1.12.2_v1.11.0.zip",
+            "MD5": "418afd51739723d5233e9ccf7c33a131",
+            "path": "resourcepacks/cocricot_1.12.2_v1.11.0.zip"
           }
         },
         {
