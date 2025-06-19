@@ -720,6 +720,19 @@
           }
         },
         {
+          "id": "nl.requios:effortlessbuilding:1.12.2-2.16@jar",
+          "name": "Effortless Building",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 468802,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/optionalon/effortlessbuilding-1.12.2-2.16.jar",
+            "MD5": "9167da7c02dbf88583550d8ea3920742"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "mezz.jei:jei:4.16.1.301@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
@@ -796,6 +809,32 @@
             "size": 1479535,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
             "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.6@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1860086,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/optionalon/Xaeros_Minimap_25.2.6_Forge_1.12.jar",
+            "MD5": "dd83a80a2ebace01e8fd472e12555946"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.9@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 870488,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/optionalon/XaerosWorldMap_1.39.9_Forge_1.12.jar",
+            "MD5": "b4373d1288407637ea048bbc89ad5b4b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
