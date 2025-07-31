@@ -3464,6 +3464,19 @@
           }
         },
         {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.8@jar",
           "name": "Farmer's Delight",
           "type": "ForgeMod",
@@ -3887,6 +3900,83 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "embeddium-0.3.31mc1.20.1_mine-tech_20240908.zip",
+          "name": "embeddium-0.3.31mc1.20.1_mine-tech_20240908.zip",
+          "type": "File",
+          "artifact": {
+            "size": 24753,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/files/resourcepacks/embeddium-0.3.31mc1.20.1_mine-tech_20240908.zip",
+            "MD5": "c600fda8c55c702b3d3f5fee02b33b7a",
+            "path": "resourcepacks/embeddium-0.3.31mc1.20.1_mine-tech_20240908.zip"
+          }
+        },
+        {
+          "id": "Goety Old Textures.zip",
+          "name": "Goety Old Textures.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3865178,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/files/resourcepacks/Goety%20Old%20Textures.zip",
+            "MD5": "0c667f81a78f8fc1789312890894ebb3",
+            "path": "resourcepacks/Goety Old Textures.zip"
+          }
+        },
+        {
+          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49129,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+            "MD5": "55972821247560334f8009f7f6d02070",
+            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
+          }
+        },
+        {
+          "id": "rubidium-extra-0.5.7emc1.21-build.129_mine-tech_20240811.zip",
+          "name": "rubidium-extra-0.5.7emc1.21-build.129_mine-tech_20240811.zip",
+          "type": "File",
+          "artifact": {
+            "size": 31223,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/files/resourcepacks/rubidium-extra-0.5.7emc1.21-build.129_mine-tech_20240811.zip",
+            "MD5": "d53d274e051dbbbe0e74941608016f5f",
+            "path": "resourcepacks/rubidium-extra-0.5.7emc1.21-build.129_mine-tech_20240811.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09.zip",
+          "name": "BSL_v8.2.09.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954784,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/files/shaderpacks/BSL_v8.2.09.zip",
+            "MD5": "4443556b4e0d63394f0df1297e484454",
+            "path": "shaderpacks/BSL_v8.2.09.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.zip",
+          "name": "BSL_v8.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 925936,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/files/shaderpacks/BSL_v8.2.zip",
+            "MD5": "f8ccfb82d095d74a16062fb2b37444ff",
+            "path": "shaderpacks/BSL_v8.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 442386,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "MD5": "0eee0a58a691363ef57366fd562a7ab3",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
           }
         }
       ]
