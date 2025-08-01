@@ -3875,6 +3875,16 @@
           }
         },
         {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E6%96%99%E7%90%86%E5%AF%BE%E6%B1%BA-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          }
+        },
+        {
           "id": "xaero.minimap:xaerominimap:25.2.0@jar",
           "name": "Xaero's Minimap",
           "type": "ForgeMod",
