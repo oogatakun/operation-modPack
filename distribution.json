@@ -915,6 +915,16 @@
           }
         },
         {
+          "id": "com.mrcrayfish.furniture:cfm:6.3.2@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2439199,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
+            "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
+          }
+        },
+        {
           "id": "mezz.jei:jei:4.16.1.301@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
@@ -981,6 +991,16 @@
             "size": 4072608,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/rojiuramod-1.12.2_0.1.4.a.jar",
             "MD5": "5a2c5da4645273d8677ccd5109796d81"
+          }
+        },
+        {
+          "id": "net.xiaoyu233:superfirework:0.1.2@jar",
+          "name": "Superfirework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32997,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/superfirework-0.1.2.jar",
+            "MD5": "8445af3dde2af178c856e07af93db074"
           }
         },
         {
