@@ -879,6 +879,16 @@
           }
         },
         {
+          "id": "de.erdbeerbaerlp:creativefirework:1.0.2@jar",
+          "name": "Creative Fireworks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32490,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/Creative-Fireworks-Mod-Forge-1.12.2.jar",
+            "MD5": "8af5102b5db36f05f8facae26076b73b"
+          }
+        },
+        {
           "id": "team.chisel:ctm:MC1.12.2-1.0.2.31@jar",
           "name": "CTM",
           "type": "ForgeMod",
@@ -991,16 +1001,6 @@
             "size": 4072608,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/rojiuramod-1.12.2_0.1.4.a.jar",
             "MD5": "5a2c5da4645273d8677ccd5109796d81"
-          }
-        },
-        {
-          "id": "net.xiaoyu233:superfirework:0.1.2@jar",
-          "name": "Superfirework",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 32997,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/superfirework-0.1.2.jar",
-            "MD5": "8445af3dde2af178c856e07af93db074"
           }
         },
         {
