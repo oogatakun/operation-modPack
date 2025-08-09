@@ -958,6 +958,16 @@
           }
         },
         {
+          "id": "net.xiaoyu233:superfirework:0.1.2@jar",
+          "name": "Superfirework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32997,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/forgemods/required/LoF_1.12.2_1.0.4.jar",
+            "MD5": "8445af3dde2af178c856e07af93db074"
+          }
+        },
+        {
           "id": "com.sintinium:oauth:1.06.1-1.12@jar",
           "name": "OAuth",
           "type": "ForgeMod",
