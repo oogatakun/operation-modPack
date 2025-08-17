@@ -9627,6 +9627,19 @@
           }
         },
         {
+          "id": "com.sk89q:worldedit:7.2.12+6240-87f4ae1@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5650155,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%842-1.19.2/forgemods/optionalon/worldedit-mod-7.2.12.jar",
+            "MD5": "35923b44d8e81af4cb310b578f689b73"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "ja_jp.json",
           "name": "ja_jp.json",
           "type": "File",
