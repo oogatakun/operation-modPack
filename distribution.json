@@ -659,11 +659,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 12158297,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/plasmovoice-forge-1.19.2-2.1.5.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/plasmovoice-forge-1.19.2-2.1.5.jar",
             "MD5": "e0ba9cf8a6ca3eb552c68b1cc5c88844"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -672,11 +673,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 58461,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/pv-addon-broadcast-1.1.0.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/pv-addon-broadcast-1.1.0.jar",
             "MD5": "31aa133f084d9521456b522177a1aaf8"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -685,11 +687,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 161428,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/pv-addon-groups-1.1.0.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/pv-addon-groups-1.1.0.jar",
             "MD5": "c89c03ae37cf860d908900357759b6ba"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -740,6 +743,19 @@
             "size": 132729,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/textrues_embeddium_options-0.1.1+mc1.19.2.jar",
             "MD5": "0bc5bc5d8c008b731893f31f40e2c1a4"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.19.2-2.5.35@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9085972,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/voicechat-forge-1.19.2-2.5.35.jar",
+            "MD5": "064f2b33e31e6ec990672831de860957"
+          },
+          "required": {
+            "value": false
           }
         },
         {
