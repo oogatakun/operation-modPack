@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///D:/operation-modPack/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ミュータントゾンビVSチャロマーズ (Minecraft 1.12.2)",
+    "description": "今回は問題なく撮影できるのか？\n\n村を襲うミュータントゾンビから身を守ろう",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "1265514874554024090",
+      "largeImageText": "チャロマーズ",
+      "largeImageKey": "https://pbs.twimg.com/profile_images/1951290483399073793/n5loGG_5_400x400.jpg"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2860"
+  },
+  "untrackedFiles": []
+}
