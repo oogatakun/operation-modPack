@@ -1186,16 +1186,6 @@
           }
         },
         {
-          "id": "net.malisis.core:malisiscore:1.12.2-6.5.1-SNAPSHOT@jar",
-          "name": "MalisisCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1939783,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88%E3%82%BE%E3%83%B3%E3%83%93VS%E3%83%81%E3%83%A3%E3%83%AD%E3%83%9E%E3%83%BC%E3%82%BA-1.12.2/forgemods/required/malisiscore-1.12.2-6.5.1.jar",
-            "MD5": "ccc183a97d7b9688a49bf29b61343f49"
-          }
-        },
-        {
           "id": "net.malisis.doors:malisisdoors:1.12.2-7.3.0@jar",
           "name": "MalisisDoors",
           "type": "ForgeMod",
@@ -1259,6 +1249,17 @@
             "size": 116261,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88%E3%82%BE%E3%83%B3%E3%83%93VS%E3%83%81%E3%83%A3%E3%83%AD%E3%83%9E%E3%83%BC%E3%82%BA-1.12.2/forgemods/required/simpleminingdrills%201.12.2.jar",
             "MD5": "743fdb3e32106582f8ac3fd2ae635d2d"
+          }
+        },
+        {
+          "id": "malisiscore-1.12.2-6.5.1.jar",
+          "name": "malisiscore-1.12.2-6.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1939783,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%B3%E3%83%88%E3%82%BE%E3%83%B3%E3%83%93VS%E3%83%81%E3%83%A3%E3%83%AD%E3%83%9E%E3%83%BC%E3%82%BA-1.12.2/files/mods/malisiscore-1.12.2-6.5.1.jar",
+            "MD5": "ccc183a97d7b9688a49bf29b61343f49",
+            "path": "mods/malisiscore-1.12.2-6.5.1.jar"
           }
         }
       ]
