@@ -581,6 +581,19 @@
           }
         },
         {
+          "id": "net.xolt:freecam:1.2.3@jar",
+          "name": "Freecam",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1100379,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/freecam-forge-1.2.3+1.19.2.jar",
+            "MD5": "f0b8826a949ff3f36c4594f8faa412b2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "io.github.reserveword:imblocker:3.1.2@jar",
           "name": "IMBlocker",
           "type": "ForgeMod",
