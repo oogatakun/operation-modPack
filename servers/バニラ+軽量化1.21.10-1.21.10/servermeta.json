@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/operation-modPack/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "%0%バニラ+軽量化1.21.10",
+    "description": "(Fabric v0.18.4)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+			"shortId": "Minecraft",
+			"largeImageText": "Minecrafst",
+			"largeImageKey": "pack_tyaromars"
+		},
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.18.4"
+  },
+  "untrackedFiles": []
+}
