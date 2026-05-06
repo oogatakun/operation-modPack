@@ -863,9 +863,9 @@
           "name": "VideoPlayer",
           "type": "ForgeMod",
           "artifact": {
-            "size": 55995041,
+            "size": 55995552,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/vplayer-1.0-SNAPSHOT.jar",
-            "MD5": "fbae35c772527c613eb77e8227f0ab4e"
+            "MD5": "cbd0f15fc956b623e2fa718468973ddf"
           },
           "required": {
             "value": false
