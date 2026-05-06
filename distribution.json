@@ -586,9 +586,9 @@
       "address": "localhost:25565",
       "minecraftVersion": "1.19.2",
       "discord": {
-        "shortId": "tyaromarslauncher",
+        "shortId": "バニラ1.19.2",
         "largeImageText": "バニラ1.19.2",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "largeImageKey": "https://raw.githubusercontent.com/oogatakun/tyaromars-operation-launcher/refs/heads/main/build/icon.png"
       },
       "mainServer": true,
       "autoconnect": false,
@@ -610,8 +610,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 46991,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/appleskin-forge-mc1.19-2.4.2.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/appleskin-forge-mc1.19-2.4.2.jar",
             "MD5": "3cd43c763f6e9a244a115606faaecf4f"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -650,8 +653,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 90207,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/dynamiclightsreforged-1.19.2_v1.4.0.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/dynamiclightsreforged-1.19.2_v1.4.0.jar",
             "MD5": "67f6b3118439adc4e56724c78001e981"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -660,8 +666,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1578835,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/embeddium-0.3.18.1+mc1.19.2.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/embeddium-0.3.18.1+mc1.19.2.jar",
             "MD5": "634c15fb16f76965938dc80b2b4fda9f"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -713,8 +723,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3499284,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/oculus-mc1.19.2-1.6.9.jar",
             "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -770,6 +784,20 @@
           }
         },
         {
+          "id": "me.jellysquid.mods.lithium:radium:0.8.2@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511586,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/radium-0.8.2.jar",
+            "MD5": "c764d38f2e1d1293f705449cb6f485bf"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "technicianlp.reauth:reauth:4.0.7@jar",
           "name": "ReAuth",
           "type": "ForgeMod",
@@ -777,6 +805,20 @@
             "size": 172955,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/ReAuth-1.19-Forge-4.0.7.jar",
             "MD5": "2dea01dcabc1537ae2ce71894c9c8fee"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:rubidium_extra:0.4.19+mc1.19.2-build.105@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317160,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+            "MD5": "625cd59e097bd63998d08c418a715fdc"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -795,8 +837,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 132729,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/textrues_embeddium_options-0.1.1+mc1.19.2.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionaloff/textrues_embeddium_options-0.1.1+mc1.19.2.jar",
             "MD5": "0bc5bc5d8c008b731893f31f40e2c1a4"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -817,9 +863,9 @@
           "name": "VideoPlayer",
           "type": "ForgeMod",
           "artifact": {
-            "size": 55859032,
+            "size": 55995041,
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/optionalon/vplayer-1.0-SNAPSHOT.jar",
-            "MD5": "97d096e136842c4ae0a98ddb7dfae200"
+            "MD5": "fbae35c772527c613eb77e8227f0ab4e"
           },
           "required": {
             "value": false

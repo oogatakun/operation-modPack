@@ -6,9 +6,9 @@
     "description": "Forge v43.4.0",
     "address": "localhost:25565",
     "discord": {
-      "shortId": "tyaromarslauncher",
+      "shortId": "バニラ1.19.2",
       "largeImageText": "バニラ1.19.2",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "largeImageKey": "https://raw.githubusercontent.com/oogatakun/tyaromars-operation-launcher/refs/heads/main/build/icon.png"
     },
     "mainServer": true,
     "autoconnect": false
