@@ -3,9 +3,9 @@
   "meta": {
     "rss": "<LINK TO RSS FEED>",
     "discord": {
-      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "clientId": "1265514874554024090",
+      "smallImageText": "チャロマーズ",
+      "smallImageKey": "https://raw.githubusercontent.com/oogatakun/tyaromars-operation-launcher/refs/heads/main/build/icon.png"
     }
   }
 }
