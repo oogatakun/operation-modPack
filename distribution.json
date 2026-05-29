@@ -8,61 +8,6 @@
   },
   "servers": [
     {
-      "id": "ChainedTogether-1.20.1",
-      "name": "ChainedTogether (Minecraft 1.20.1)",
-      "description": "Forge v47.4.10",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "localhost:25565",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.20.1-47.4.10:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 0,
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
-          "name": "AppleSkin",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 47428,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/ChainedTogether-1.20.1/forgemods/optionalon/appleskin-forge-mc1.20.1-2.5.1.jar",
-            "MD5": "dae63cea9c951dda542a4005ceef3953"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.garda:ct:1.0.0@jar",
-          "name": "Chained Together",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 62674,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/ChainedTogether-1.20.1/forgemods/optionalon/ct-1.0.0%20(1).jar",
-            "MD5": "24782a800658995be435788ebfb6f1e6"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
       "id": "rojiuramod-1.12.2",
       "name": "※路地裏mod (Minecraft 1.12.2)",
       "description": "Forge v14.23.5.2860",
