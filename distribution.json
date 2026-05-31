@@ -8,6 +8,74 @@
   },
   "servers": [
     {
+      "id": "ChainedTogether-1.20.1",
+      "name": "ChainedTogether (Minecraft 1.20.1)",
+      "description": "Forge v47.4.10",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.10:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/ChainedTogether-1.20.1/forgemods/optionalon/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.garda:ct:1.0.0@jar",
+          "name": "Chained Together",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62674,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/ChainedTogether-1.20.1/forgemods/optionalon/ct-1.0.0%20(1).jar",
+            "MD5": "24782a800658995be435788ebfb6f1e6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.reserveword:imblocker:5.5.4@jar",
+          "name": "IMBlocker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203201,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/ChainedTogether-1.20.1/forgemods/optionalon/IMBlocker-5.5.4-forge+1.17-1.20.4.jar",
+            "MD5": "5fad9a27206dc17e3e05c051d35ec759"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
       "id": "rojiuramod-1.12.2",
       "name": "※路地裏mod (Minecraft 1.12.2)",
       "description": "Forge v14.23.5.2860",
@@ -437,17 +505,6 @@
           }
         },
         {
-          "id": "RojiuraMod_ResourcePack_0.0.6b.zip",
-          "name": "RojiuraMod_ResourcePack_0.0.6b.zip",
-          "type": "File",
-          "artifact": {
-            "size": 5879775,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip",
-            "MD5": "8c3cdd235267f0f34a224ebfda5ee419",
-            "path": "resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip"
-          }
-        },
-        {
           "id": "cocricot_1.12.2_v1.11.0.zip",
           "name": "cocricot_1.12.2_v1.11.0.zip",
           "type": "File",
@@ -456,6 +513,17 @@
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/resourcepacks/cocricot_1.12.2_v1.11.0.zip",
             "MD5": "418afd51739723d5233e9ccf7c33a131",
             "path": "resourcepacks/cocricot_1.12.2_v1.11.0.zip"
+          }
+        },
+        {
+          "id": "RojiuraMod_ResourcePack_0.0.6b.zip",
+          "name": "RojiuraMod_ResourcePack_0.0.6b.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5879775,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/rojiuramod-1.12.2/files/resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip",
+            "MD5": "8c3cdd235267f0f34a224ebfda5ee419",
+            "path": "resourcepacks/RojiuraMod_ResourcePack_0.0.6b.zip"
           }
         },
         {
@@ -509,6 +577,683 @@
       "mainServer": false,
       "autoconnect": false,
       "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.10-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2850,
+                "MD5": "8d92a173a958817ab64bc6d1f1e6e213",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/versions/1.21.10-fabric-0.18.4/1.21.10-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.10",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 778652,
+                "MD5": "612031a185c7493cc93e908a875b72cc",
+                "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/repo/lib/net/fabricmc/intermediary/1.21.10/intermediary-1.21.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.1+1.21.5@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 70838,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/animatica-0.6.1+1.21.5.jar",
+            "MD5": "1e3bf1a8841f5ca84a88325b68e5cee8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.ultimatchamp:bettergrass:1.8.3+fabric.1.21.10@jar",
+          "name": "BetterGrassify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 88042,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/BetterGrassify-1.8.3+fabric.1.21.10.jar",
+            "MD5": "415cae09ef3f1ec18c13229cd3489369"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:bettermounthud:1.2.6@jar",
+          "name": "Better Mount HUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21069,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/bettermounthud-1.2.6.jar",
+            "MD5": "da173c6527e57f0b7a1db5a6fab42324"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.cael:capes:1.5.9+1.21.9@jar",
+          "name": "Capes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71856,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/capes-1.5.9+1.21.9-fabric.jar",
+            "MD5": "7b5da3df45d2bb09dc84eb2155536f85"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:20.0.149@jar",
+          "name": "Cloth Config v20",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1150288,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/cloth-config-20.0.149-fabric.jar",
+            "MD5": "97d2780c55c1b8d729811c538634b8cd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.1-beta.2+1.21.10@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 994514,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/continuity-3.0.1-beta.2+1.21.10.jar",
+            "MD5": "8b3d04df15d3661238d0174e3d50b0df"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander:controlify:2.5.1+1.21.10-fabric@jar",
+          "name": "Controlify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8155155,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/controlify-2.5.1+1.21.10-fabric.jar",
+            "MD5": "d04a5f91db07c23b8135ae6e90018498"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.kostromdan.mods:crash_assistant:1.10.28@jar",
+          "name": "Crash Assistant",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1218740,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/CrashAssistant-fabric-1.21.5-1.21.11-1.10.28.jar",
+            "MD5": "05da84e696605cfd4528d314beea321a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:cubes-without-borders:3.0.0+mc1.21.5@jar",
+          "name": "Cubes Without Borders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81623,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/cwb-fabric-3.0.0+mc1.21.5.jar",
+            "MD5": "d29e2d0d27179c62638f2b79e857ba14"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:1.21.10+1.1@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 383013,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/debugify-1.21.10+1.1.jar",
+            "MD5": "1d2953bdae84ca6693889681dd258117"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.11.3@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 218711,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/dynamic-fps-3.11.3+minecraft-1.21.9-fabric.jar",
+            "MD5": "fa1d4931973fecd0765dafc473665c7e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "link.e4mc:e4mc_minecraft:5.5.4@jar",
+          "name": "E4mc",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 603622,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/e4mc_minecraft-fabric-5.5.4.jar",
+            "MD5": "a64485fb72e86ae0fb93b3eb2f89358a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.0.10@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 494746,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/entity_model_features_1.21.9-fabric-3.0.10.jar",
+            "MD5": "09cd3462e37ebe68fd9700dd869be5ce"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.8@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 728962,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/entity_texture_features_1.21.9-fabric-7.0.8.jar",
+            "MD5": "789f7b5cf97d4eb9d68be225a3fa247f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.5@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1571707,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/entityculling-fabric-1.9.5-mc1.21.10.jar",
+            "MD5": "fc0b3da60f721566feea1be5732c05c8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.138.4+1.21.10@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2375888,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/fabric-api-0.138.4+1.21.10.jar",
+            "MD5": "c9ebf1b300d813310d18115a7cc03f99"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.8+kotlin.2.3.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7618852,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+            "MD5": "964103287b72e606de845420d1a8cc57"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.ramidzkh:fabrishot:1.16.3@jar",
+          "name": "Fabrishot",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49787,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/fabrishot-1.16.3.jar",
+            "MD5": "2e9a1fe9ab75e3e7cd70b2ff3720a164"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.contaria:fastquit:3.1.2+mc1.21.10@jar",
+          "name": "FastQuit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 61209,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/fastquit-3.1.2+mc1.21.10.jar",
+            "MD5": "e3e04732fce05ac785cd43866d9c044e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:8.0.2@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79573,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/ferritecore-8.0.2-fabric.jar",
+            "MD5": "3fccc3293645a624bc2d67cb811e79fe"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.10.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 615376,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/ForgeConfigAPIPort-v21.10.1+mc1.21.10-Fabric.jar",
+            "MD5": "4804d13c574546ff0acb7b3f870340d1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.13.4+1.21.10@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 308507,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/ImmediatelyFast-Fabric-1.13.4+1.21.10.jar",
+            "MD5": "e113e7936981ce2564e07c70e76b7a0f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.9.7+mc1.21.10@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2717422,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/iris-fabric-1.9.7+mc1.21.10.jar",
+            "MD5": "7d2bf05890132d821ae1c09458aac654"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:lambdynlights:4.8.7+1.21.10@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2161643,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/lambdynamiclights-4.8.7+1.21.10.jar",
+            "MD5": "7a300ab3ee21b11f2057af4da118e66b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.7.5+1.21.10@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75644,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/language-reload-1.7.5+1.21.10.jar",
+            "MD5": "ef051b2bf09132effc61ae211394d178"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.20.1+mc1.21.10@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 835455,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/lithium-fabric-0.20.1+mc1.21.10.jar",
+            "MD5": "33ccbe4494ec33799c8a16d747071cd4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.mainmenucredits:isxander-main-menu-credits:1.2.0@jar",
+          "name": "Main Menu Credits",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14858,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/main-menu-credits-1.2.0.jar",
+            "MD5": "a385e65575d63ca0d2b4635c6a398047"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:mixintrace:1.1.1+1.17@jar",
+          "name": "MixinTrace",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36039,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/mixintrace-1.1.1+1.17.jar",
+            "MD5": "25673336ece740d8127ae7525bc0cd4f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21.10-1.12@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66424,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/modelfix-1.21.10-1.12-fabric.jar",
+            "MD5": "de02af67f913040557fb7dae833a2c16"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:16.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1083564,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/modmenu-16.0.0.jar",
+            "MD5": "796fbe44d12e83c7ac28e0c82b515649"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:morechathistory:1.3.1@jar",
+          "name": "More Chat History",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3573,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/morechathistory-1.3.1.jar",
+            "MD5": "cd040faa8025103baf571a3ce15d4a8a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.5.0-beta.2@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 349186,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/moreculling-fabric-1.21.9-1.5.0-beta.2.jar",
+            "MD5": "ffa02716c7b44aca966f5732634bb027"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.21.10-v2.16.0@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 249687,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/NoChatReports-FABRIC-1.21.10-v2.16.0.jar",
+            "MD5": "bde05c509c547c9214eb4c50e1387086"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "opekope2.optigui:optigui:2.3.0-beta.9+1.21.9@jar",
+          "name": "OptiGUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 611520,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/optigui-2.3.0-beta.9+1.21.9.jar",
+            "MD5": "8f3f022f67077cc4051459293eab6a58"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.dafuqs:paginatedadvancements:2.8.0+1.21.9@jar",
+          "name": "Paginated Advancements",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80592,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/paginatedadvancements-2.8.0+1.21.9.jar",
+            "MD5": "480208d544580cec42f7e76f0cc1a4de"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.puzzlemc.core:puzzle:2.3.0@jar",
+          "name": "Puzzle",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 145569,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/puzzle-fabric-2.3.0+1.21.10.jar",
+            "MD5": "15f8aa5dc0d5c96d8f68c79718cdd30d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.6+mc1.21.10@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 82444,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/reeses-sodium-options-fabric-1.8.6+mc1.21.10.jar",
+            "MD5": "6d7836317856c34562da177d09ad69b3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.redlance.dima_dencep.mods:rrls:5.1.12+mc1.21.9-fabric@jar",
+          "name": "Remove Reloading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 198762,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/rrls-5.1.12+mc1.21.9-fabric.jar",
+            "MD5": "84b859568cc57fd09d370fa5895f43de"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "btw.lowercase:skyboxify:2.3@jar",
+          "name": "Skyboxify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 414009,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/skyboxify-2.3+1.21.10-fabric.jar",
+            "MD5": "a1cc5ed6251abd2670b2457df09d8f97"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.7.1+mc1.21.10@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 417279,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/sodium-extra-fabric-0.7.1+mc1.21.10.jar",
+            "MD5": "5ddcc11eeaa78acd8f00e1c263186b56"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.7.3+mc1.21.10@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1676903,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/sodium-fabric-0.7.3+mc1.21.10.jar",
+            "MD5": "57a54742a51ae95bdc47e83f7245a9e2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "rynnavinx.sspb:sspb:5.0.1@jar",
+          "name": "Sodium Shadowy Path Blocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 53791,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/sodium-shadowy-path-blocks-fabric-5.0.1.jar",
+            "MD5": "4f644869ae1e16baaa7cde01537443b6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.10-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1127484,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/yet_another_config_lib_v3-3.8.2+1.21.10-fabric.jar",
+            "MD5": "ace7c4811f10788361f482bf2b24e22c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:yosbr:0.1.2@jar",
+          "name": "YOSBR",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17373,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.6+1.21.9@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1869193,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%961.21.10-1.21.10/fabricmods/optionalon/Zoomify-2.14.6+1.21.9.jar",
+            "MD5": "b18b8126f580e1a410114054e7ec1eb6"
+          },
+          "required": {
+            "value": false
+          }
+        },
         {
           "id": "Chat Reporting Helper.zip",
           "name": "Chat Reporting Helper.zip",
@@ -872,17 +1617,6 @@
           }
         },
         {
-          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
-          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 49129,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
-            "MD5": "55972821247560334f8009f7f6d02070",
-            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
-          }
-        },
-        {
           "id": "ja_jp.json",
           "name": "ja_jp.json",
           "type": "File",
@@ -927,6 +1661,17 @@
           }
         },
         {
+          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49129,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+            "MD5": "55972821247560334f8009f7f6d02070",
+            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
+          }
+        },
+        {
           "id": "BSL_v8.2.09.zip",
           "name": "BSL_v8.2.09.zip",
           "type": "File",
@@ -965,7 +1710,7 @@
       "id": "単発1-1.12.2",
       "name": "単発1 (1.12.2)",
       "description": "Forge v14.23.5.2860",
-      "icon": null,
+      "icon": "https://tyromarse.wstr.fr/Pack1.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.12.2",
@@ -1726,17 +2471,6 @@
           }
         },
         {
-          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
-          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
-          "type": "File",
-          "artifact": {
-            "size": 49129,
-            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%842-1.19.2/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
-            "MD5": "55972821247560334f8009f7f6d02070",
-            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
-          }
-        },
-        {
           "id": "ja_jp.json",
           "name": "ja_jp.json",
           "type": "File",
@@ -1778,6 +2512,17 @@
             "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%842-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.png",
             "MD5": "fbc1413ed605064b9920339159ed9e60",
             "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.png"
+          }
+        },
+        {
+          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49129,
+            "url": "https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/servers/%E8%84%B1%E7%8D%842-1.19.2/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+            "MD5": "55972821247560334f8009f7f6d02070",
+            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
           }
         }
       ]
